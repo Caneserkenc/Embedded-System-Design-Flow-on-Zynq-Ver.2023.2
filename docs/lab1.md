@@ -219,7 +219,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
    * In the Show View dialog box, type **terminal** in the search box.
    * Select **Vitis Serial Terminal** and click **Open**.
     <p align="center">
-    <img src ="pics/lab1/15_OpenVitisTerminal.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab1/19_vitisserialterminal.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Open the Vitis Serial Terminal </i>
@@ -227,7 +227,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
  
 1. Click the Add button in the Vitis Serial Terminal to connect to a serial terminal. Select the port from the dropdown menu. Keep the Advanced Settings as-is. Click OK.
    <p align="center">
-    <img src ="pics/lab1/16_ConnectSerial.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab1/21_portconnection.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
@@ -235,7 +235,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. Right-click **lab1_system > lab1** and select **Launch Hardware (Single Application Debug)**.
     <p align="center">
-    <img src ="pics/lab1/21_portconnection.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/22_launchHardware.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     <i> Launch Run Configurations </i>
