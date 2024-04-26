@@ -129,4 +129,4 @@ PYNQ-Z2:[/board_files](/board_files/).
   <p align = "center">
   
   ------------------------------------------------------
-<p align="center">Copyright&copy; 2022, Advanced Micro Devices, Inc.</p>
+
