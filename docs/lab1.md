@@ -30,7 +30,7 @@ After completing this lab, you will be able to:
 
 1.	In the Flow Navigator, click **Create Block Design** under IP Integrator.
     <p align="center">
-    <img src ="pics/lab1/3_CreateIP.jpg" width="20%" height="20%"/>
+    <img src ="pics/lab1/2_IPintegrator.jpg" width="20%" height="20%"/>
     </p>
     <p align = "center">
     <i>Create IP Integrator Block Diagram</i>
@@ -38,10 +38,10 @@ After completing this lab, you will be able to:
 
 1.	Enter **system** for the design name and click OK.
     <p align="center">
-    <img src ="pics/lab1/1_BoardsandParts.jpg" width="80%" height="80%"/>
+    <img src ="pics/3.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Boards and Parts Selection</i>
+    <i>Create Block Design</i>
     </p>
 
 
@@ -235,7 +235,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. Right-click **lab1_system > lab1** and select **Launch Hardware (Single Application Debug)**.
     <p align="center">
-    <img src ="pics/lab1/17_OpenRunConfig.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/21_portconnection.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     <i> Launch Run Configurations </i>
@@ -243,7 +243,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. You should see the following output on the Terminal tab.
     <p align="center">
-    <img src ="pics/lab1/19_MemTestRun.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab1/23_çıktı.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
