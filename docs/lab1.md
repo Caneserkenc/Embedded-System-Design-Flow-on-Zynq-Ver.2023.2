@@ -177,17 +177,23 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 1. In the Platform Selection window, select **Create a new platform from hardware (XSA)** and browse to select the system_wrapper.xsa file exported before. (Default is in the {labs}\lab1 folder).
 1. Enter **lab1_platform** as the _Platform name_, click **Next.**
     <p align="center">
-    <img src ="pics/lab1/10_AddPlatform.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/14_newapplicationproject.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i> Select a platform to create the project </i>
+    </p> 
+        <p align="center">
+    <img src ="pics/lab1/15_cortex9a.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i> Select a ps7_cortexa9_0 </i>
     </p> 
 
 1. In the project details window, name the project **lab1**, and in the Target Processor selection, select **ps7_cortexa9_0**.
 
 1. Select **Memory Tests** as the template in the Template Selection window. Click **Finish**.
    <p align="center">
-    <img src ="pics/lab1/12_SelTemplate.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/16_memorytest.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i> Select a template to create the project </i>
@@ -195,7 +201,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1.	Expand folders in the Explorer view on the left, and observe that there are two projects – lab1_platform, and lab1_system.  The **lab1_system** project is the application that we will use to verify the functionality of the design.  The **lab1_platfrom** is a platform project includes the ps7_init function which initializes the PS as part of the first stage bootloader. The Explorer view should look something like this:
     <p align="center">
-    <img src ="pics/lab1/13_Explorer.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab1/17_src.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> The Project Explorer view </i>
@@ -205,7 +211,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. Build the application project either by clicking the hammer button or by right-clicking on the application project and selecting Build Project as shown in following figure. As the project builds, you can see the output in the Console window.
     <p align="center">
-    <img src ="pics/lab1/14_Build.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab1/18_build project.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Build the application project </i>
@@ -226,6 +232,13 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     </p>
  
 1. Click the Add button in the Vitis Serial Terminal to connect to a serial terminal. Select the port from the dropdown menu. Keep the Advanced Settings as-is. Click OK.
+ <p align="center">
+    <img src ="pics/lab1/20_connectserialport.jpg" width="35%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i> Connect to serial port Menu </i>
+    </p>
+    
    <p align="center">
     <img src ="pics/lab1/21_portconnection.jpg" width="35%" height="80%"/>
     </p>
