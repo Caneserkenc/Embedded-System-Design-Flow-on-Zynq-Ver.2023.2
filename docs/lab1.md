@@ -70,11 +70,11 @@ After completing this lab, you will be able to:
 1. Once Block Automation has been completed, notice that ports have been automatically added for the DDR (double data rate, a type of memory) and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the board has been applied which will now be modified. The block should finally look like this:
 
     <p align="center">
-    <img src ="pics/ps zynq.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/ps zynq.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
      <i> Zynq Block with DDR and Fixed IO ports</i>
-    </p>  
+    </p>   
 
 1. Double-click on the added block to open the **Customization** window.
    Notice now the Customization window shows selected peripherals (with tick marks). This is the default configuration for the board applied by the block automation.
@@ -88,7 +88,7 @@ After completing this lab, you will be able to:
 1.	Click on one of the peripherals (in green) in the **Peripheral I/O Pins** block of the Zynq Block Design, or select the **MIO Configuration** tab on the left to open the configuration form
 
     <p align="center">
-    <img src ="pics/lab1/8_MIOconfiguration.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/8_MIOconfiguration.jpg" width="10%" height="20%"/>
     </p>
     <p align = "center">
      <i> MIO Configuration </i>
