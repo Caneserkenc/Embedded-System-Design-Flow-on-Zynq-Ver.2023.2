@@ -113,10 +113,10 @@ After completing this lab, you will be able to:
     </i>
 
     <p align="center">
-    <img src ="pics/lab1/6_UART.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/9_recostomizeIP.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
-    <i> Selecting only UART 1</i>
+    <i> Selecting only UART 0</i>
     </p>  
 
 
@@ -130,7 +130,7 @@ After completing this lab, you will be able to:
 
 1. Click on the **Regenerate Layout button** (green arrow) shown below:
     <p align="center">
-    <img src ="pics/lab1/7_RegValid.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/6_Zynq Block with DDR and Fixed IO ports.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     <i> Regenerating and Validating Design</i>
@@ -142,7 +142,7 @@ After completing this lab, you will be able to:
 
 1.	In the sources panel, right-click on **system.bd**, and select **Generate Output Products…** and click Generate to generate the Implementation, Simulation and Synthesis files for the design (You can also click on **Generate Block Design** in the Flow Navigator pane to do the same).
     <p align="center">
-    <img src ="pics/lab1/8_OP.jpg" width="40%" height="80%"/>
+    <img src ="pics/lab1/10_generateoutputproduct.jpg" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i> Generating output products </i>
@@ -155,14 +155,13 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i> Create HDL Wrapper </i>
     </p>  
-
-    The system_wrapper.v file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane.
     <p align="center">
-    <img src ="pics/lab1/9_wrap.jpg" width="40%" height="80%"/>
+    <img src ="pics/lab1/11_HDLwrapper.jpg" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i> The HDL Wrapper file generated and added to the project </i>
-    </p>  
+    </p> 
+
 
 1. Notice that the Verilog file is already set as the top module in the design, indicated by the icon.
 1. Select **File > Export > Export hardware** and click OK. (Save the project if prompted)
