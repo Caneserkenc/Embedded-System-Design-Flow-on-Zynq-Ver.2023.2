@@ -38,7 +38,7 @@ After completing this lab, you will be able to:
 
 1.	Enter **system** for the design name and click OK.
     <p align="center">
-    <img src ="pics/3.jpg" width="80%" height="80%"/>
+    <img src ="pics/docs/3.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Create Block Design</i>
@@ -47,7 +47,7 @@ After completing this lab, you will be able to:
 
 1.	Right-click anywhere in the Diagram workspace and select **Add IP**.
     <p align="center">
-    <img src ="pics/4_addIP.jpg" width="80%" height="80%"/>
+    <img src ="pics/docs/4_addIP.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add IP to Block Diagram</i>
