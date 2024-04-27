@@ -57,7 +57,7 @@ After completing this lab, you will be able to:
 1.	Once the **IP Catalog** opens, type “zynq” into the Search bar, find and double click on **ZYNQ7 Processing System** entry, or click on the entry and hit the Enter key to add it to the design.
 
     <p align="center">
-    <img src ="pics/lab1/5_zynqIP.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/5_zynqIP.jpg" width="20%" height="20%"/>
     </p>
     <p align = "center">
     <i>Select a ZYNQ7 Processing System</i>
