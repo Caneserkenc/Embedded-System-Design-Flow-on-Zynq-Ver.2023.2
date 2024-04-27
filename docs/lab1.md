@@ -47,7 +47,7 @@ After completing this lab, you will be able to:
 
 1.	Right-click anywhere in the Diagram workspace and select **Add IP**.
     <p align="center">
-    <img src ="pics/lab1/4_AddIP.jpg" width="80%" height="80%"/>
+    <img src ="pics/4_addIP.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add IP to Block Diagram</i>
@@ -57,10 +57,10 @@ After completing this lab, you will be able to:
 1.	Once the **IP Catalog** opens, type “zynq” into the Search bar, find and double click on **ZYNQ7 Processing System** entry, or click on the entry and hit the Enter key to add it to the design.
 
     <p align="center">
-    <img src ="pics/lab1/5_zynqIP.jpg.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/5_zynqIP.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Boards and Parts Selection</i>
+    <i>Select a ZYNQ7 Processing System</i>
     </p>
 
 1.	Notice the message at the top of the Diagram window in a green label saying that Designer Assistance available. Click **Run Block Automation**.  
@@ -70,7 +70,7 @@ After completing this lab, you will be able to:
 1. Once Block Automation has been completed, notice that ports have been automatically added for the DDR (double data rate, a type of memory) and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the board has been applied which will now be modified. The block should finally look like this:
 
     <p align="center">
-    <img src ="pics/lab1/5_Zynqblck.jpg" width="90%" height="80%"/>
+    <img src ="pics/ps zynq.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
      <i> Zynq Block with DDR and Fixed IO ports</i>
@@ -88,7 +88,7 @@ After completing this lab, you will be able to:
 1.	Click on one of the peripherals (in green) in the **Peripheral I/O Pins** block of the Zynq Block Design, or select the **MIO Configuration** tab on the left to open the configuration form
 
     <p align="center">
-    <img src ="pics/lab1/5_Zynqblck.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/8_MIOconfiguration.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
      <i> MIO Configuration </i>
