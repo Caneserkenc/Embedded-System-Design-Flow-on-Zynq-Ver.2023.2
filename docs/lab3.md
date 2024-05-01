@@ -21,7 +21,7 @@ After completing this lab, you will be able to:
     <img src ="pics\lab3\1_selectdevice.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
-    <i>Boards and Parts Selection</i>
+    <i>Boards Selection</i>
     </p>
 1.	Select Verilog as the Target Language, Mixed as the Simulator language, and for IP location, type **{labs}\led_ip** and click Finish (leave other settings as defaults and click OK if prompted to create the directory)
 
@@ -29,7 +29,7 @@ After completing this lab, you will be able to:
      <img src ="pics/lab3/2_newiplocation.jpg" width="80%" height="80%"/> 
      </p>
      <p align = "center">
-     <i>New IP Location form (**Needs to be Updated**)</i>
+     <i>New IP Location form </i>
      </p>
 
 
@@ -42,7 +42,7 @@ After completing this lab, you will be able to:
      <img src ="pics/lab3/3_createandpackageip.jpg" width="80%" height="80%"/> 
      </p>
      <p align = "center">
-     <i>New IP Location form (**Needs to be Updated**)</i>
+     <i>Create a new AXI4 peripheral</i>
      </p>
 
 4.	Fill in the details for the IP.
@@ -57,7 +57,7 @@ After completing this lab, you will be able to:
      <img src ="pics/lab3/4_peripheraldetails.jpg" width="80%" height="80%"/> 
      </p>
      <p align = "center">
-     <i>New IP Location form (**Needs to be Updated**)</i>
+     <i>IP Details</i>
      </p>
 
 5.	Click Next.
@@ -66,7 +66,7 @@ After completing this lab, you will be able to:
      <img src ="pics/lab3/5_addinterfaces.jpg" width="80%" height="80%"/> 
      </p>
      <p align = "center">
-     <i>New IP Location form (**Needs to be Updated**)</i>
+     <i>Rename S_AXI</i>
      </p>
 
 7.	Leave the other settings as default and click **Next** (*Lite interface, Slave mode, Data Width: 32, Number of Registers: 4*).
