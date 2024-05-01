@@ -130,7 +130,7 @@ After completing this lab, you will be able to:
 
     Check the contents of this file to understand the logic that is being implemented.  Notice the formed hierarchy.
          <p align="center">
-     <img src ="pics/lab3/5_addinterfaces.jpg" width="80%" height="80%"/> 
+     <img src ="pics/lab3/6_addsources.jpg" width="80%" height="80%"/> 
      </p>
      <p align = "center">
      <i>Add Design Sources</i>
