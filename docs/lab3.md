@@ -159,7 +159,7 @@ After completing this lab, you will be able to:
 
 1.	For the IP to appear in the IP catalog in particular categories, the IP must be configured to be part of those categories. To change which categories the IP will appear in the **IP catalog** click Blue Plus (Red box shown in the figure) in the **Categories** section. This opens the Choose IP Categories window
    <p align="center">
-   <img src ="pics/lab3/7_basicelements.jpg" width="80%" height="80%"/>
+   <img src ="pics/lab3/7_basicelements.jpg" width="20%" height="40%"/>
    </p>
    <p align = "center">
    <i> Edit Package IP</i>
