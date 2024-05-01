@@ -129,6 +129,13 @@ After completing this lab, you will be able to:
 11.	Click on the **Add Sources** in the Flow Navigator pane, select **Add or Create Design Sources**, click **Next**, then click the Plus icon then Add Files…, browse to **{sources}\lab3**, select the lab3_user_logic.v file and click OK, and then click **Finish** to add the file.
 
     Check the contents of this file to understand the logic that is being implemented.  Notice the formed hierarchy.
+         <p align="center">
+     <img src ="pics/lab3/5_addinterfaces.jpg" width="80%" height="80%"/> 
+     </p>
+     <p align = "center">
+     <i>Add Design Sources</i>
+     </p>
+
 
     > Make sure that when adding the source lab3_user_logic.v, untick the option: Copy sources into IP directory.
 
@@ -142,7 +149,7 @@ After completing this lab, you will be able to:
 1.	Click on the Package IP – led_ip tab
 
    <p align="center">
-   <img src ="pics/lab3/2_PackIP.jpg" width="80%" height="80%"/>
+   <img src ="pics/lab3/8_PackIP.jpg" width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i> Package IP</i>
@@ -151,6 +158,12 @@ After completing this lab, you will be able to:
 > Skip the next two steps (2 and 3) if you see /Basic_Elements under the Categories section, (like the one shown in figure)
 
 1.	For the IP to appear in the IP catalog in particular categories, the IP must be configured to be part of those categories. To change which categories the IP will appear in the **IP catalog** click Blue Plus (Red box shown in the figure) in the **Categories** section. This opens the Choose IP Categories window
+   <p align="center">
+   <img src ="pics/lab3/7_PackIP.jpg" width="80%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i> Edit Package IP</i>
+   </p>
 1.	For the purpose of this exercise, uncheck the **AXI Peripheral** box and check the **Basic Elements** and click OK.
 1.	Select **Compatibility**. This shows the different Xilinx FPGA Families that the IP supports. The value is inherited from the device selected for the project during creating the IP.
 1.	You should have something like this:
