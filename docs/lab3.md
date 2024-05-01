@@ -18,7 +18,7 @@ After completing this lab, you will be able to:
 1.	Click **Manage IP** and select **New IP Location** and click Next in the New IP Location window.
 1.	Click on the browse button for the Part section. Click on boards and select the PYNQ-Z2 as your part. Click OK.
     <p align="center">
-    <img src ="pics\lab3\1_selectdevice.jpg" width="80%" height="80%"/>
+    <img src ="docs\pics\lab3\1_selectdevice.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Boards Selection</i>
