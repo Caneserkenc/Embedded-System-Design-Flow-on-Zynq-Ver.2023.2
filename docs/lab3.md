@@ -149,7 +149,7 @@ After completing this lab, you will be able to:
 1.	Click on the Package IP – led_ip tab
 
    <p align="center">
-   <img src ="pics/lab3/8_PackIP.jpg" width="80%" height="80%"/>
+   <img src ="pics/lab3/8_basicelements2.jpg" width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i> Package IP</i>
@@ -159,7 +159,7 @@ After completing this lab, you will be able to:
 
 1.	For the IP to appear in the IP catalog in particular categories, the IP must be configured to be part of those categories. To change which categories the IP will appear in the **IP catalog** click Blue Plus (Red box shown in the figure) in the **Categories** section. This opens the Choose IP Categories window
    <p align="center">
-   <img src ="pics/lab3/7_PackIP.jpg" width="80%" height="80%"/>
+   <img src ="pics/lab3/7_basicelements.jpg" width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i> Edit Package IP</i>
