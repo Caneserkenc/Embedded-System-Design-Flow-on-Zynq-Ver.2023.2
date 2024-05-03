@@ -18,7 +18,7 @@ After completing this lab, you will be able to:
 1.	Click **Manage IP** and select **New IP Location** and click Next in the New IP Location window.
 1.	Click on the browse button for the Part section. Click on boards and select the PYNQ-Z2 as your part. Click OK.
     <p align="center">
-    <img src ="..\pics\lab3\1_selectdevice.jpg" width="70%" height="70%"/>
+    <img src ="..\pics\lab3\1_selectdevice.jpg" width="60%" height="60%"/>
     </p>
     <p align = "center">
     <i>Boards Selection</i>
@@ -39,7 +39,7 @@ After completing this lab, you will be able to:
 2.	In the window, click Next.
 3.	Select **Create a new AXI4 peripheral**, and click Next.
      <p align="center">
-     <img src ="pics/lab3/3_createandpackageip.jpg" width="80%" height="80%"/> 
+     <img src ="pics/lab3/3_createandpackageip.jpg" width="70%" height="70%"/> 
      </p>
      <p align = "center">
      <i>Create a new AXI4 peripheral</i>
@@ -63,7 +63,7 @@ After completing this lab, you will be able to:
 5.	Click Next.
 6.	Change the Name of the interface to **S_AXI**.
      <p align="center">
-     <img src ="pics/lab3/5_addinterfaces.jpg" width="80%" height="80%"/> 
+     <img src ="pics/lab3/5_addinterfaces.jpg" width="70%" height="70%"/> 
      </p>
      <p align = "center">
      <i>Rename S_AXI</i>
@@ -130,7 +130,7 @@ After completing this lab, you will be able to:
 
     Check the contents of this file to understand the logic that is being implemented.  Notice the formed hierarchy.
          <p align="center">
-     <img src ="pics/lab3/6_addsources.jpg" width="80%" height="80%"/> 
+     <img src ="pics/lab3/6_addsources.jpg" width="70%" height="70%"/> 
      </p>
      <p align = "center">
      <i>Add Design Sources</i>
@@ -227,7 +227,7 @@ Notice that the Ports and Interfaces view now shows the user created LED port
 4.	Select **IP > Repository** in the left pane of the Project Settings form.
 5.	Click on the Blue Plus button, browse to **{labs}\led_ip** and click Select. The led_ip_v1.0 IP will appear the IP in the Selected Repository window.
     <p align="center">
-    <img src ="pics/lab3/13_iprepository.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab3/13_iprepository.jpg" width="60%" height="70%"/>
     </p>
     <p align = "center">
     <i> Specify IP Repository </i>
@@ -279,7 +279,7 @@ The design should look similar to the figure below.
 1.	Click the Blue Plus button, and then **Add Files…**, browse to the **{sources}\lab3** folder, select lab3_pynq_z2.xdc for _PYNQ-Z2_.
 1.	Click **Finish** to add the file.
   <p align="center">
-  <img src ="pics/lab3/16_conraints.jpg" width="90%" height="80%"/>
+  <img src ="pics/lab3/16_conraints.jpg" width="80%" height="70%"/>
   </p>
   <p align = "center">
   <i> Add Constraints </i>
