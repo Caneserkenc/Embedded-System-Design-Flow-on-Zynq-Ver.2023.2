@@ -30,7 +30,7 @@ After completing this lab, you will be able to:
 
 1.	In the Flow Navigator, click **Create Block Design** under IP Integrator.
     <p align="center">
-    <img src ="pics/lab1/2_IPintegrator.jpg" width="40%" height="30%"/>
+    <img src ="pics/lab1/2_IPintegrator.jpg" width="30%" height="25%"/>
     </p>
     <p align = "center">
     <i>Create IP Integrator Block Diagram</i>
@@ -38,10 +38,10 @@ After completing this lab, you will be able to:
 
 1.	Enter **system** for the design name and click OK.
     <p align="center">
-    <img src ="pics/lab1/3.jpg" width="20%" height="20%"/>
+    <img src ="pics/lab1/3.jpg" width="25%" height="25%"/>
     </p>
     <p align = "center">
-    <i>Create IP Integrator Block Diagram</i>
+    <i>Design Rename</i>
     </p>
 
 1.	Right-click anywhere in the Diagram workspace and select **Add IP**.
@@ -87,7 +87,7 @@ After completing this lab, you will be able to:
 1.	Click on one of the peripherals (in green) in the **Peripheral I/O Pins** block of the Zynq Block Design, or select the **MIO Configuration** tab on the left to open the configuration form
 
     <p align="center">
-    <img src ="pics/lab1/8_MIOconfiguration.jpg" width="10%" height="20%"/>
+    <img src ="pics/lab1/8_MIOconfiguration.jpg" width="20%" height="25%"/>
     </p>
     <p align = "center">
      <i> MIO Configuration </i>
@@ -175,13 +175,13 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 1. In the Platform Selection window, select **Create a new platform from hardware (XSA)** and browse to select the system_wrapper.xsa file exported before. (Default is in the {labs}\lab1 folder).
 1. Enter **lab1_platform** as the _Platform name_, click **Next.**
     <p align="center">
-    <img src ="pics/lab1/14_newapplicationproject.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/14_newapplicationproject.jpg" width="70%" height="70%"/>
     </p>
     <p align = "center">
     <i> Select a platform to create the project </i>
     </p> 
         <p align="center">
-    <img src ="pics/lab1/15_cortex9a.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/15_cortex9a.jpg" width="70%" height="70%"/>
     </p>
     <p align = "center">
     <i> Select a ps7_cortexa9_0 </i>
@@ -191,7 +191,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. Select **Memory Tests** as the template in the Template Selection window. Click **Finish**.
    <p align="center">
-    <img src ="pics/lab1/16_memorytest.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab1/16_memorytest.jpg" width="70%" height="70%"/>
     </p>
     <p align = "center">
     <i> Select a template to create the project </i>
@@ -238,7 +238,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     </p>
     
    <p align="center">
-    <img src ="pics/lab1/21_portconnection.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab1/21_portconnection.jpg" width="30%" height="60%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
@@ -246,7 +246,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. Right-click **lab1_system > lab1** and select **Launch Hardware (Single Application Debug)**.
     <p align="center">
-    <img src ="pics/lab1/22_launchHardware.jpg" width="90%" height="80%"/>
+    <img src ="pics/lab1/22_launchHardware.jpg" width="80%" height="70%"/>
     </p>
     <p align = "center">
     <i> Launch Run Configurations </i>
@@ -254,7 +254,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1. You should see the following output on the Terminal tab.
     <p align="center">
-    <img src ="pics/lab1/23_çıktı.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab1/23_çıktı.jpg" width="60%" height="50%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
