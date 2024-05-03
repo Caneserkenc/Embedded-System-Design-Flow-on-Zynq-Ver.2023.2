@@ -181,7 +181,7 @@ After completing this lab, you will be able to:
     <img src ="pics/lab3/4_ipfile.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
-    <i> Compatibility under Package IP</i>
+    <i> Fİle Groups under Package IP</i>
     </p>
 
     This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic.v file that was added to the project. Expand Verilog Synthesis and notice lab3_user_logic.v has been included.
