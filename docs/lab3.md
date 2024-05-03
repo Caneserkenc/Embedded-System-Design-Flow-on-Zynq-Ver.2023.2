@@ -176,13 +176,13 @@ After completing this lab, you will be able to:
 	>If this does not match up with what you have, click the blue plus then **Add Family Explicitly…** from the menu. Select the **Zynq family** (This is the family of devices the PYNQ-Z2 belongs to) and click OK.
 1.	You can also customize the address space and add memory address space using the **Addressing and Memory** category.  We won’t make any changes this time.
 1.	Click on **File Groups** and click **Merge changes** from File Groups Wizard.
-
-    <p align="center">
-    <img src ="pics/lab3/4_ipfile.jpg" width="70%" height="80%"/>
+  <p align="center">
+    <img src ="pics/lab3/3_ipfam.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i> Fİle Groups under Package IP</i>
     </p>
+
 
     This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic.v file that was added to the project. Expand Verilog Synthesis and notice lab3_user_logic.v has been included.
 
