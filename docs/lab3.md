@@ -177,7 +177,7 @@ After completing this lab, you will be able to:
 1.	You can also customize the address space and add memory address space using the **Addressing and Memory** category.  We won’t make any changes this time.
 1.	Click on **File Groups** and click **Merge changes** from File Groups Wizard.
   <p align="center">
-    <img src ="pics/lab3/3_ipfam.jpg" width="80%" height="80%"/>
+    <img src ="pics/lab3/10_Compatibility under Package IP.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i> Fİle Groups under Package IP</i>
