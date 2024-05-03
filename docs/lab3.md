@@ -190,7 +190,7 @@ Notice that the Ports and Interfaces view now shows the user created LED port
 1.	Select **Customization GUI** and notice that the Led Width is visible.
 
     <p align="center">
-    <img src ="pics/lab3/5_ipcustomzn.jpg" width="75%" height="80%"/>
+    <img src ="pics/lab3/11_costomizationgui.jpg" width="75%" height="80%"/>
     </p>
     <p align = "center">
     <i> Customization GUI under Package IP</i>
@@ -220,7 +220,7 @@ Notice that the Ports and Interfaces view now shows the user created LED port
 4.	Select **IP > Repository** in the left pane of the Project Settings form.
 5.	Click on the Blue Plus button, browse to **{labs}\led_ip** and click Select. The led_ip_v1.0 IP will appear the IP in the Selected Repository window.
     <p align="center">
-    <img src ="pics/lab3/6_chooseip.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab3/13_iprepository.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Specify IP Repository </i>
