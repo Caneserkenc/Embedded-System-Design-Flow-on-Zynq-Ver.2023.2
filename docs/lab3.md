@@ -259,7 +259,7 @@ Notice that the AXI Protocol being used is **AXI4** instead of AXI4Lite since BR
 The design should look similar to the figure below.
 
   <p align="center">
-  <img src ="pics/lab3/8_Completeblck.jpg" width="90%" height="80%"/>
+  <img src ="..pics/lab3/15_diagram2.jpg" width="90%" height="80%"/>
   </p>
   <p align = "center">
   <i> Completed Block Diagram </i>
@@ -272,10 +272,10 @@ The design should look similar to the figure below.
 1.	Click the Blue Plus button, and then **Add Files…**, browse to the **{sources}\lab3** folder, select lab3_pynq_z2.xdc for _PYNQ-Z2_.
 1.	Click **Finish** to add the file.
   <p align="center">
-  <img src ="pics/lab3/8_Completeblck.jpg" width="90%" height="80%"/>
+  <img src ="..pics/lab3/16_conraints.jpg" width="90%" height="80%"/>
   </p>
   <p align = "center">
-  <i> Completed Block Diagram </i>
+  <i> Add Constraints </i>
   </p>
 1.	Expand Constraints folder in the Sources pane, and double click the **lab3_*.xdc** file entry to see its content. This file contains the pin locations and IO standards for the LEDs on the _Zynq_ board. This information can usually be found in the manufacturer’s datasheet for the board.
 1.	Right click on system.bd and select **Generate output products**
