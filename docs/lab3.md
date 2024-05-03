@@ -297,7 +297,7 @@ If you get bitstream error apply these changes
   <i> Bitstream Error </i>
   </p>
   
-  1. Rename led_ip port to LED_0
+  1. Rename led_ip port to LED_0 or change LED_0s to LED in xdc file
  <p align="center">
   <img src ="pics/lab3/18_renameledip.jpg" width="60%" height="60%"/>
   </p>
@@ -305,8 +305,7 @@ If you get bitstream error apply these changes
   <i> Rename LED </i>
   </p>
  
- 2. Or change LED_0s to LED in xdc file
- 3. Again click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
+ 2. Again click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
 
 ## Conclusion
 
