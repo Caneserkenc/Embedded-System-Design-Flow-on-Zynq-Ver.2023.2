@@ -306,7 +306,8 @@ If you get bitstream error apply these changes
   </p>
  
  2. Or change LED_0s to LED in xdc file
- 
+ 3. Again click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
+
 ## Conclusion
 
 Vivado IP packager was used to import a custom IP block into the IP library. The IP block was then added to the system. Connection automation was run where available to speed up the design of the system by allowing Vivado to automatically make connections between IP. An additional BRAM was added to the design. Finally, pin location constraints were added to the design. This lab is build upon and tested in Lab 4.
