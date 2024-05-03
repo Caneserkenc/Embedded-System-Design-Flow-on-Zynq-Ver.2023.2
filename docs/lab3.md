@@ -241,7 +241,7 @@ Notice that the Ports and Interfaces view now shows the user created LED port
 1.	Select the LED port on the led_ip instance (by clicking on its pin), right-click and select **Make External**. Rename the port as **LED**.
 
     <p align="center">
-    <img src ="pics/lab3/7_LEDext.jpg" width="70%" height="80%"/>
+    <img src ="pics/lab3/14_diagram.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i> LED external port added and connected </i>
@@ -259,7 +259,7 @@ Notice that the AXI Protocol being used is **AXI4** instead of AXI4Lite since BR
 The design should look similar to the figure below.
 
   <p align="center">
-  <img src ="..pics/lab3/15_diagram2.jpg" width="90%" height="80%"/>
+  <img src ="pics/lab3/15_diagram2.jpg" width="90%" height="80%"/>
   </p>
   <p align = "center">
   <i> Completed Block Diagram </i>
@@ -272,7 +272,7 @@ The design should look similar to the figure below.
 1.	Click the Blue Plus button, and then **Add Files…**, browse to the **{sources}\lab3** folder, select lab3_pynq_z2.xdc for _PYNQ-Z2_.
 1.	Click **Finish** to add the file.
   <p align="center">
-  <img src ="..pics/lab3/16_conraints.jpg" width="90%" height="80%"/>
+  <img src ="pics/lab3/16_conraints.jpg" width="90%" height="80%"/>
   </p>
   <p align = "center">
   <i> Add Constraints </i>
