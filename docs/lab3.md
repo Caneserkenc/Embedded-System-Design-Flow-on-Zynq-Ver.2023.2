@@ -288,6 +288,23 @@ The design should look similar to the figure below.
 1.	Right click on system.bd and select **Generate output products**
 1.	Click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
 
+## Note
+If you get bitstream error apply these changes
+  <p align="center">
+  <img src ="pics/lab3/17_bitstreamerror.jpg" width="90%" height="80%"/>
+  </p>
+  <p align = "center">
+  <i> Bitstream Error </i>
+  </p>
+  
+  1. Rename led_ip port to LED_0
+    <p align="center">
+  <img src ="pics/lab3/18_renameledip.jpg" width="90%" height="80%"/>
+  </p>
+  <p align = "center">
+  <i> Rename LED </i>
+  </p>
+
 ## Conclusion
 
 Vivado IP packager was used to import a custom IP block into the IP library. The IP block was then added to the system. Connection automation was run where available to speed up the design of the system by allowing Vivado to automatically make connections between IP. An additional BRAM was added to the design. Finally, pin location constraints were added to the design. This lab is build upon and tested in Lab 4.
