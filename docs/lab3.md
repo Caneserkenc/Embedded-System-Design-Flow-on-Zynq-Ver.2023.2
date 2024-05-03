@@ -298,8 +298,8 @@ If you get bitstream error apply these changes
   </p>
   
   1. Rename led_ip port to LED_0
-    <p align="center">
-  <img src ="pics/lab3/18_renameledip.jpg" width="90%" height="80%"/>
+ <p align="center">
+  <img src ="pics/lab3/18_renameledip.jpg" width="70%" height="60%"/>
   </p>
   <p align = "center">
   <i> Rename LED </i>
