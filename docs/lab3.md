@@ -304,7 +304,9 @@ If you get bitstream error apply these changes
   <p align = "center">
   <i> Rename LED </i>
   </p>
-
+ 
+ 2. Or change LED_0s to LED in xdc file
+ 
 ## Conclusion
 
 Vivado IP packager was used to import a custom IP block into the IP library. The IP block was then added to the system. Connection automation was run where available to speed up the design of the system by allowing Vivado to automatically make connections between IP. An additional BRAM was added to the design. Finally, pin location constraints were added to the design. This lab is build upon and tested in Lab 4.
