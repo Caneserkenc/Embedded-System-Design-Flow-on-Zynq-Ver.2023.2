@@ -210,6 +210,13 @@ Notice that the Ports and Interfaces view now shows the user created LED port
     LIBSOURCES=led_ip.c led_ip_selftest.c
     OUTS=led_ip.o led_ip_selftest.o
     ```
+        <p align="center">
+    <img src ="pics/lab3/12_makefileedit.jpg" width="75%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Update Makefile</i>
+    </p>
+
 1. Save and close the file
 
 ### Modify the Project Settings
