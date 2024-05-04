@@ -157,16 +157,18 @@ After completing this lab, you will be able to:
 
 > Skip the next two steps (2 and 3) if you see /Basic_Elements under the Categories section, (like the one shown in figure)
 
-1.	For the IP to appear in the IP catalog in particular categories, the IP must be configured to be part of those categories. To change which categories the IP will appear in the **IP catalog** click Blue Plus in the **Categories** section. This opens the Choose IP Categories window
+2.	For the IP to appear in the IP catalog in particular categories, the IP must be configured to be part of those categories. To change which categories the IP will appear in the **IP catalog** click Blue Plus in the **Categories** section. This opens the Choose IP Categories window
    <p align="center">
    <img src ="pics/lab3/7_basicelements.jpg" width="20%" height="40%"/>
    </p>
    <p align = "center">
    <i> Edit Package IP</i>
    </p>
-1.	For the purpose of this exercise, uncheck the **AXI Peripheral** box and check the **Basic Elements** and click OK.
-1.	Select **Compatibility**. This shows the different Xilinx FPGA Families that the IP supports. The value is inherited from the device selected for the project during creating the IP.
-1.	You should have something like this:
+3.	For the purpose of this exercise, uncheck the **AXI Peripheral** box and check the **Basic Elements** and click OK.
+
+4.	Select **Compatibility**. This shows the different Xilinx FPGA Families that the IP supports. The value is inherited from the device selected for the project during creating the IP.
+
+5.	You should have something like this:
     <p align="center">
     <img src ="pics/lab3/3_ipfam.jpg" width="80%" height="80%"/>
     </p>
