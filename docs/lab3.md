@@ -285,10 +285,9 @@ The design should look similar to the figure below.
   <i> Add Constraints </i>
   </p>
 6.	Expand Constraints folder in the Sources pane, and double click the **lab3_*.xdc** file entry to see its content. This file contains the pin locations and IO standards for the LEDs on the _Zynq_ board. This information can usually be found in the manufacturer’s datasheet for the board.
+7.	Right click on system.bd and select **Generate output products**
 
-1.	Right click on system.bd and select **Generate output products**
-
-1.	Click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
+8.	Click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
 
 ## Note
 If you get bitstream error apply these changes
