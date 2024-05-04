@@ -304,7 +304,7 @@ The design should look similar to the figure below.
   <i> Bitstream Error </i>
   </p>
   
-  9. Rename led_ip port to LED_0 or change LED_0s to LED in xdc file
+  9. Rename led_ip port to LED_0 or change LED_0s to LED in xdc file.
  <p align="center">
   <img src ="pics/lab3/18_renameledip.jpg" width="60%" height="60%"/>
   </p>
