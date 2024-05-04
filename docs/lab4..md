@@ -219,7 +219,7 @@ Notice the files in this directory and open **led_ip.c**. This file only include
     }
     ```
     <p align="center">
-    <img src ="pics/lab4/8_kod.jpg" width="55%" height="80%"/>
+    <img src ="pics/lab4/8_kod.jpg" width="75%" height="80%"/>
     </p>
     <p align = "center">
     <i> Modify Lab4.c </i>
