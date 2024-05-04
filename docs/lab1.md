@@ -162,11 +162,11 @@ After completing this lab, you will be able to:
     </p> 
 
 
-1. Notice that the Verilog file is already set as the top module in the design, indicated by the icon.
-1. Select **File > Export > Export hardware** and click OK. (Save the project if prompted)
+3. Notice that the Verilog file is already set as the top module in the design, indicated by the icon.
+4. Select **File > Export > Export hardware** and click OK. (Save the project if prompted)
 Note:  Since we do not have any hardware in Programmable Logic (PL) there is no bitstream to generate, hence the Include bitstream option is not necessary at this time.
 
-1. Basic information about the hardware configuration of the project can be found in the Xilinx Support Archive (XSA) file, along with the Address maps for the PS systems, and driver information. The .xsa file is used in the software environment to determine the peripherals available in the system, and their location in the address map.
+5. Basic information about the hardware configuration of the project can be found in the Xilinx Support Archive (XSA) file, along with the Address maps for the PS systems, and driver information. The .xsa file is used in the software environment to determine the peripherals available in the system, and their location in the address map.
  
 ### Generate Memory Test Application in Vitis IDE
 
