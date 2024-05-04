@@ -186,9 +186,10 @@ After completing this lab, you will be able to:
     <i> Fİle Groups under Package IP</i>
     </p>
 
-    <This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic.v file that was added to the project. Expand Verilog Synthesis and notice lab3_user_logic.v has been included.
+    
+8. This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic.v file that was added to the project. Expand Verilog Synthesis and notice lab3_user_logic.v has been included.
 
-8.	Click on **Customization Parameters** and again Merge changes from Customization Parameters Wizard.
+9.	Click on **Customization Parameters** and again Merge changes from Customization Parameters Wizard.
 Notice that the Ports and Interfaces view now shows the user created LED port
 1.	Select **Customization Parameters**, expand **Hidden Parameters**, right-click on **LED_WIDTH**, and select **Import IP Parameters…** and click OK.
 1.	Select **Customization GUI** and notice that the Led Width is visible.
