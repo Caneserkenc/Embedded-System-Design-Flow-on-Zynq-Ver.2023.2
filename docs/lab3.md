@@ -296,8 +296,7 @@ The design should look similar to the figure below.
 
 1. Click on **Generate Bitstream** and click Yes if prompted to save the Block Diagram, and click Yes again if prompted to launch **Synthesis** and **Implementation**. Click Cancel when prompted to Open the Implemented Design
 
-## Note
-If you get bitstream error apply these changes
+> Note: If you get bitstream error apply these changes.**
   <p align="center">
   <img src ="pics/lab3/17_bitstreamerror.jpg" width="90%" height="80%"/>
   </p>
