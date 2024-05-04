@@ -49,7 +49,6 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i>Select Lab4.c</i>
     </p>
-
 1.	Select **lab4.c** and click Finish to add the file to the project. (Ignore any errors for now).
 1.	Open **lab4_platform > platform.spr** from the Explorer.
 1. Click **Board Support Package** under standalone_ps7_cortexa9_0.
