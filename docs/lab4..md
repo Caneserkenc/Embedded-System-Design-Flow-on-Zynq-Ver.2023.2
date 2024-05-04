@@ -41,7 +41,6 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i>İmport Sources</i>
     </p>
-
 1.	Expand **lab4** in the project view and right-click in the **src** folder and select **Import Sources...**.
 1.  Browse to select the **sources\lab4** folder, click Open Folder.
  <p align="center">
@@ -50,7 +49,7 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i>Select Lab4.c</i>
     </p>
-    
+
 1.	Select **lab4.c** and click Finish to add the file to the project. (Ignore any errors for now).
 1.	Open **lab4_platform > platform.spr** from the Explorer.
 1. Click **Board Support Package** under standalone_ps7_cortexa9_0.
