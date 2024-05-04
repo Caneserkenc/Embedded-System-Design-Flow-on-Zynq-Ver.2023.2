@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 
 1.	Start the Vivado if necessary and open the lab3 project (lab3.xpr) you created in the previous lab.
  <p align="center">
-    <img src ="pics/lab4/1_saveproject.jpg" width="70%" height="70%"/>
+    <img src ="pics/lab4/1_saveproject.jpg" width="50%" height="50%"/>
     </p>
     <p align = "center">
     <i>Save As Project</i>
@@ -36,7 +36,7 @@ After completing this lab, you will be able to:
 1.  Select the domain with name **standalone_ps7_\***, click Next.
 1.	Click Next, and select **Empty Application(C)** and click Finish.
  <p align="center">
-    <img src ="pics/lab4/2_importsources.jpg" width="70%" height="70%"/>
+    <img src ="pics/lab4/2_importsources.jpg" width="50%" height="50%"/>
     </p>
     <p align = "center">
     <i>İmport Sources</i>
@@ -45,7 +45,7 @@ After completing this lab, you will be able to:
 1.	Expand **lab4** in the project view and right-click in the **src** folder and select **Import Sources...**.
 1.  Browse to select the **sources\lab4** folder, click Open Folder.
  <p align="center">
-    <img src ="pics/lab4/3_importsources2.jpg" width="70%" height="70%"/>
+    <img src ="pics/lab4/3_importsources2.jpg" width="50%" height="50%"/>
     </p>
     <p align = "center">
     <i>Select Lab4.c</i>
@@ -67,7 +67,7 @@ After completing this lab, you will be able to:
 1.	Double click on **xgpio.h** in the Outline view on the right of the screen and review the contents of the file to see the available function calls for the GPIO.
 
     <p align="center">
-    <img src ="pics/lab4/5_outline.jpg" width="40%" height="80%"/>
+    <img src ="pics/lab4/5_outline.jpg" width="30%" height="60%"/>
     </p>
     <p align = "center">
     <i>Outline View</i>
@@ -218,6 +218,12 @@ Notice the files in this directory and open **led_ip.c**. This file only include
     }
     }
     ```
+        <p align="center">
+    <img src ="pics/lab4/8_kod.jpg" width="55%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i> Modify Lab4.c </i>
+    </p>
 6.	Save the file and build the project.
 
 ### Verify in Hardware
