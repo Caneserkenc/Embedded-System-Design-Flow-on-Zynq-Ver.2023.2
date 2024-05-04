@@ -64,7 +64,7 @@ After completing this lab, you will be able to:
 
 1.	View the various C and Header files associated with the _GPIO_ by clicking Files at the top of the page.
 1.	Double-click on lab4.c in the Project Explorer view to open the file.  This will populate the **Outline** tab.  
-1.	Double click on **xgpio.h** in the Outline view on the right of the screen and review the contents of the file to see the available function calls for the GPIO.
+1.	Double click on **xgpio.h** in the Outline view on the right of the screen and review the contents of the file to see the available function calls for the GPIO (You need to close the xgpio.h file first.).
 
     <p align="center">
     <img src ="pics/lab4/5_outline.jpg" width="30%" height="60%"/>
