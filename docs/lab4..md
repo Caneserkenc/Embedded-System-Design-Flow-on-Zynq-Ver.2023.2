@@ -41,9 +41,9 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i>İmport Sources</i>
     </p>
-    
-1.	Expand **lab4** in the project view and right-click in the **src** folder and select **Import Sources...**.
-1.  Browse to select the **sources\lab4** folder, click Open Folder.
+
+1.Expand **lab4** in the project view and right-click in the **src** folder and select **Import Sources...**.
+1.Browse to select the **sources\lab4** folder, click Open Folder.
    <p align="center">
     <img src ="pics/lab4/3_importsources2.jpg" width="50%" height="50%"/>
     </p>
@@ -51,7 +51,7 @@ After completing this lab, you will be able to:
     <i>Select Lab4.c</i>
     </p>
 
-1.	Select **lab4.c** and click Finish to add the file to the project. (Ignore any errors for now).
+1.Select **lab4.c** and click Finish to add the file to the project. (Ignore any errors for now).
 1.	Open **lab4_platform > platform.spr** from the Explorer.
 1. Click **Board Support Package** under standalone_ps7_cortexa9_0.
 1.	Click on **Documentation link** corresponding to buttons peripheral under the Peripheral Drivers section to open the documentation in a default browser window.  As our led_ip is very similar to GPIO, we look at the mentioned documentation.
