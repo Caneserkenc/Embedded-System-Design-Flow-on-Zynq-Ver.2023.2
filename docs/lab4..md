@@ -42,8 +42,8 @@ After completing this lab, you will be able to:
     <i>İmport Sources</i>
     </p>
 
-1.Expand **lab4** in the project view and right-click in the **src** folder and select **Import Sources...**.
-1.Browse to select the **sources\lab4** folder, click Open Folder.
+1. Expand **lab4** in the project view and right-click in the **src** folder and select **Import Sources...**.
+1. Browse to select the **sources\lab4** folder, click Open Folder.
    <p align="center">
     <img src ="pics/lab4/3_importsources2.jpg" width="50%" height="50%"/>
     </p>
