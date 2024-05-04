@@ -244,7 +244,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     <i> Connect to serial port </i>
     </p>
 
-1. Right-click **lab1_system > lab1** and select **Launch Hardware (Single Application Debug)**.
+4. Right-click **lab1_system > lab1** and select **Launch Hardware (Single Application Debug)**.
     <p align="center">
     <img src ="pics/lab1/22_launchHardware.jpg" width="80%" height="70%"/>
     </p>
@@ -252,7 +252,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     <i> Launch Run Configurations </i>
     </p>
 
-1. You should see the following output on the Terminal tab.
+5. You should see the following output on the Terminal tab.
     <p align="center">
     <img src ="pics/lab1/23_çıktı.jpg" width="60%" height="50%"/>
     </p>
@@ -260,7 +260,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     <i> Connect to serial port </i>
     </p>
 
-1. Close Vivado and Vitis IDE by selecting **File > Exit** in each program.
+6. Close Vivado and Vitis IDE by selecting **File > Exit** in each program.
 
 ## Conclusion
 
