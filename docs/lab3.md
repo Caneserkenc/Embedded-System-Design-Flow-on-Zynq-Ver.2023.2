@@ -186,7 +186,7 @@ After completing this lab, you will be able to:
     <i> Fİle Groups under Package IP</i>
     </p>
 
-    This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic.v file that was added to the project. Expand Verilog Synthesis and notice lab3_user_logic.v has been included.
+    <This is to update the IP Packager with the changes that were made to the IP and the lab3_user_logic.v file that was added to the project. Expand Verilog Synthesis and notice lab3_user_logic.v has been included.
 
 8.	Click on **Customization Parameters** and again Merge changes from Customization Parameters Wizard.
 Notice that the Ports and Interfaces view now shows the user created LED port
