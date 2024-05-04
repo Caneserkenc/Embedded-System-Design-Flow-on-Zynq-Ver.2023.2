@@ -50,6 +50,7 @@ After completing this lab, you will be able to:
     <p align = "center">
     <i>Select Lab4.c</i>
     </p>
+    
 1.	Select **lab4.c** and click Finish to add the file to the project. (Ignore any errors for now).
 1.	Open **lab4_platform > platform.spr** from the Explorer.
 1. Click **Board Support Package** under standalone_ps7_cortexa9_0.
@@ -105,6 +106,7 @@ After completing this lab, you will be able to:
     > Note the number might be different.
 
     Notice the other **#define XPAR_SWITCHES*** statements in this section for the switches peripheral, and in particular the address of the peripheral defined by **XPAR_SWITCHES_BASEADDR**
+
      <p align="center">
     <img src ="pics/lab4/6_modify.jpg" width="80%" height="80%"/>
     </p>
