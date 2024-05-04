@@ -109,6 +109,13 @@ After completing this lab, you will be able to:
 1.	Modify line 14 of lab4.c to use this macro (#define) in the XGpio_Initialize function.
 1.	Do the same for the **BUTTONS**; find the macro (#define) for the **BUTTONS** peripheral in **xparameters.h**, and modify line 17 in lab4.c, and save the file.
 	>Macro refers a to "pattern" that shows how a certain input should be mapped to an output. The macros here are defined in the xparameters.h file (which you should take a look at).
+     <p align="center">
+    <img src ="pics/lab4/6_modify.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i> Modify Lab4.c </i>
+    </p>
+
     ```C
     14   XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID); // Modify this
     15   XGpio_SetDataDirection(&dip, 1, 0xffffffff);
