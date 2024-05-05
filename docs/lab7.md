@@ -20,7 +20,7 @@ After completing this lab, you will be able to:
 1. Click **Run Connection Automation**, and select **leds** (which will include GPIO and S\_AXI). Click on **GPIO** and **S_AXI** to check the default connections for these interfaces.
 1. Click OK to automatically connect the S_AXI interface to the Zynq GP0 port (through the AXI interconnect block), and the GPIO port to an external interface. Rename the port **leds_4bits** to **leds**.
     <p align="center">
-    <img src ="./pics/lab7/1_diagram1.jpg" width="30%" height="80%"/>
+    <img src ="./pics/lab7/1_diagram1.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Current Block Diagram</i>
@@ -31,14 +31,14 @@ After completing this lab, you will be able to:
 1. Select **PS-PL Configuration** in the Page Navigator window in the left pane, expand **HP Slave AXI Interface** on the right, and click on the check-box of the **S AXI HP0 Interface** to enable it.
 1. Expand **AXI Non Secure Enablement > GP Master AXI Interface** and enable the **M AXI GP1 Interface**.
     <p align="center">
-    <img src ="./pics/lab7/2_ps pl config.jpg" width="30%" height="80%"/>
+    <img src ="./pics/lab7/2_ps pl config.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>PS-PL Configuration</i>
     </p>
 4. Select **Clock Configuration** in the Page Navigator window in the left pane, expand **PL Fabric Clocks** on the right, enable the **FCLK\_CLK1**. Enter the **Requested Frequency** for the FCLK_CLK1 as **140 MHz**.
     <p align="center">
-    <img src ="./pics/lab7/3_clock config.jpg" width="30%" height="80%"/>
+    <img src ="./pics/lab7/3_clock config.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Clock Configuration</i>
@@ -53,7 +53,7 @@ After completing this lab, you will be able to:
 1. Change the _Write/Read Data Width_ to **64** and click **OK**.
 
     <p align="center">
-    <img src ="./pics/lab7/4_axicdma.jpg" width="30%" height="80%"/>
+    <img src ="./pics/lab7/4_axicdma.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>AXI Central Direct Memory Access Configuration</i>
@@ -127,7 +127,7 @@ Connection automation could be run on all unconnected ports simultaneously. For 
     </p>
 1. Using the wire tool, connect the **BRAM\_PORTA** of the _axi\_bram\_ctrl\_1_ instance to the **BRAM\_PORTB** of the Block Memory Generator _axi\_bram\_ctrl\_0\_bram_ instance.
     <p align="center">
-    <img src ="./pics/lab7/10_connectporta.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab7/10_connectporta.jpg" width="60%" height="60%"/>
     </p>
     <p align = "center">
     <i>Connect the second BRAM controller</i>
@@ -189,7 +189,7 @@ Connection automation could be run on all unconnected ports simultaneously. For 
 1.  In the Platform Selection window, select **Create a new platform from hardware (XSA)** and browse to select the **{labs}\lab7\system_wrapper.xsa** file exported before.
 
     <p align="center">
-    <img src ="./pics/lab7/15_XSA.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab7/15_XSA.jpg" width="60%" height="60%"/>
     </p>
     <p align = "center">
     <i>Create a New Platform From Hardware</i>
