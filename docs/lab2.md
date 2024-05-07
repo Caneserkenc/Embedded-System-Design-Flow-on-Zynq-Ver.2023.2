@@ -42,6 +42,7 @@ This will create the lab2 directory and save the project and associated director
 <p align = "center">
 <i>Add IP</i>
 </p>
+
 9.	Double-click the _AXI GPIO_ to add the core to the design. The core will be added to the design and the block diagram will be updated.
 
 <p align="center">
@@ -50,6 +51,7 @@ This will create the lab2 directory and save the project and associated director
 <p align = "center">
 <i>Rename to Swithces</i>
 </p>
+
 10.	Click on the AXI GPIO block to select it, and in the properties tab, change the name to **switches**.
 
 
