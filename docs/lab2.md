@@ -67,7 +67,7 @@ This will create the lab2 directory and save the project and associated director
 12.	Click the **Board** tag, From the **Board Interface** drop down, select **sws 2bits** for **GPIO** IP Interface. Leave GPIO as default setting.
 13.	Next, click the IP configuration tab, and notice the width has already been set to match the switches on the *PYNQ-Z2* (2)  
    <p align="center">
-   <img src ="pics/lab2/7_recostomizeip.jpg"  width="40%" height="80%"/>
+   <img src ="pics/lab2/7_recostomizeip.jpg"  width="50%" height="80%"/>
    </p>
    <p align = "center">
    <i>Recostomize IP</i>
@@ -77,7 +77,7 @@ This will create the lab2 directory and save the project and associated director
 14.	Click OK to save and close the customization window.
 
    <p align="center">
-   <img src ="pics/lab2/8_recostomip2.jpg"  width="40%" height="80%"/>
+   <img src ="pics/lab2/8_recostomip2.jpg"  width="50%" height="80%"/>
    </p>
    <p align = "center">
    <i>Recostomize IP</i>
@@ -87,7 +87,7 @@ This will create the lab2 directory and save the project and associated director
 16.	Click OK when prompted to automatically connect the master and slave interfaces. Notice that two additional blocks, Processor System Reset, and AXI Interconnect have automatically been added to the design. (The blocks can be dragged to be rearranged, or the design can be redrawn).
 
    <p align="center">
-   <img src ="pics/lab2/3_Dsgnswauto.jpg"  width="60%" height="80%"/>
+   <img src ="pics/lab2/9_automatically connected.jpg"  width="60%" height="80%"/>
    </p>
    <p align = "center">
    <i>Design with switches automatically connected</i>
