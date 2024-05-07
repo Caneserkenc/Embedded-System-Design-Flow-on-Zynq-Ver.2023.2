@@ -186,15 +186,22 @@ The width of the interface will be automatically determined by the upstream bloc
    * In the Show View dialog box, type **terminal** in the search box.
    * Select **Vitis Serial Terminal** and click **Open**.
     <p align="center">
-    <img src ="pics/lab1/15_OpenVitisTerminal.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab1/1_vitis açma.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Open the Vitis Serial Terminal </i>
     </p>
 
-2. Click the Add button in the Vitis Serial Terminal to connect to a serial terminal. Select the port from the dropdown menu. Keep the Advanced Settings as-is. Click OK.
+2. Click the Add button in the Vitis Serial Terminal to connect to a serial terminal.
+    <p align="center">
+    <img src ="pics/lab1/2_vitisseri terminal.jpg" width="35%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i> Open the Vitis Serial Terminal </i>
+    </p>
+3. Select the port from the dropdown menu. Keep the Advanced Settings as-is. Click OK.
    <p align="center">
-    <img src ="pics/lab1/16_ConnectSerial.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab1/3_connectseriterminal.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
@@ -204,7 +211,7 @@ The width of the interface will be automatically determined by the upstream bloc
 
 7. Play with the buttons and switches, you should see the following output on the Terminal tab.
     <p align="center">
-    <img src ="pics/lab2/14_TestAppRun.jpg" width="60%" height="80%"/>
+    <img src ="pics/lab2/4_vitisçıktı.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
