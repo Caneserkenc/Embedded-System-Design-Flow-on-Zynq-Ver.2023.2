@@ -100,7 +100,7 @@ This will create the lab2 directory and save the project and associated director
 20.	Double click on the _AXI Interconnect_ (name : ps7_0_axi_periph) and change the Number of **Master Interfaces** to 2 and click OK
 
     <p align="center">
-    <img src ="pics/lab2/4_AXIrecust.jpg "  width="60%" height="80%"/>
+    <img src ="pics/lab2/10_masterinterface.jpg"  width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add master port to AXI Interconnect</i>
@@ -124,7 +124,7 @@ This will create the lab2 directory and save the project and associated director
     The block diagram should look similar to this:
 
     <p align="center">
-    <img src ="pics/lab2/5_AXIbuttsw.jpg"  width="70%" height="80%"/>
+    <img src ="pics/lab2/11_Adding the Peripherals.jpg"  width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>System Assembly View after Adding the Peripherals</i>
@@ -136,7 +136,7 @@ This will create the lab2 directory and save the project and associated director
 Note that both peripherals are assigned in the address range of _0x40000000_ to _0x7FFFFFFF_ (GP0 range).
 
    <p align="center">
-   <img src ="pics/lab2/6_AXIAdd.jpg"  width="70%" height="80%"/>
+   <img src ="pics/lab2/12_assign.jpg"  width="70%" height="80%"/>
    </p>
    <p align = "center">
    <i>Peripherals Memory Assign</i>
@@ -159,7 +159,7 @@ The width of the interface will be automatically determined by the upstream bloc
     The design should now look similar to the diagram below
 
     <p align="center">
-    <img src ="pics/lab2/7_Finaldsgn.jpg "  width="80%" height="80%"/>
+    <img src ="pics/lab2/13_comlated design.jpg "  width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Completed design</i>
