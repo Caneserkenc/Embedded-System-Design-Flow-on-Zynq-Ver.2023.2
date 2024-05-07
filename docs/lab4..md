@@ -242,7 +242,7 @@ Notice the files in this directory and open **led_ip.c**. This file only include
 
 4. Click **Run**. You should see the following output on the Terminal tab.
     <p align="center">
-    <img src ="pics/lab4/5_sdkop.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab4/9_vitisçıktı.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
