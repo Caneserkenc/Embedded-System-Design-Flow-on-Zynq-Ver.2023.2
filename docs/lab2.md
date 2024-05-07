@@ -40,16 +40,16 @@ This will create the lab2 directory and save the project and associated director
 <img src ="pics/lab2/5.1_addip.jpg" width="40%" height="80%"/>
 </p>
 <p align = "center">
-<i>Zynq system with AXI and clock interfaces</i>
+<i>Add IP</i>
 </p>
 
 9.	Double-click the _AXI GPIO_ to add the core to the design. The core will be added to the design and the block diagram will be updated.
 
 <p align="center">
-<img src ="pics/lab2/5_zynqblok.jpg " width="40%" height="80%"/>
+<img src ="pics/lab2/5.2_changename.jpg" width="40%" height="80%"/>
 </p>
 <p align = "center">
-<i>Zynq system with AXI and clock interfaces</i>
+<i>Rename to Swithces</i>
 </p>
 
 10.	Click on the AXI GPIO block to select it, and in the properties tab, change the name to **switches**.
