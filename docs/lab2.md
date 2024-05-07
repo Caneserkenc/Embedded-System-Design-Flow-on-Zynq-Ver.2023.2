@@ -198,7 +198,7 @@ The width of the interface will be automatically determined by the upstream bloc
 1.  Browse to select the **{sources}\lab2** folder, click **Open Folder**.
 1.  Select **lab2.c** and click **Finish**.
     <p align="center">
-    <img src ="pics/lab2/12_ImportSrc.jpg"  width="60%" height="80%"/>
+    <img src ="pics/lab2/15_importlab2c.jpg"  width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Import resources from the local file system</i>
