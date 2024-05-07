@@ -46,7 +46,7 @@ This will create the lab2 directory and save the project and associated director
 9.	Double-click the _AXI GPIO_ to add the core to the design. The core will be added to the design and the block diagram will be updated.
 
 <p align="center">
-<img src ="pics/lab2/5.2_changename.jpg" width="60%" height="80%"/>
+<img src ="pics/lab2/5.2_changename.jpg" width="70%" height="80%"/>
 </p>
 <p align = "center">
 <i>Rename to Swithces</i>
@@ -67,7 +67,7 @@ This will create the lab2 directory and save the project and associated director
 12.	Click the **Board** tag, From the **Board Interface** drop down, select **sws 2bits** for **GPIO** IP Interface. Leave GPIO as default setting.
 13.	Next, click the IP configuration tab, and notice the width has already been set to match the switches on the *PYNQ-Z2* (2)  
    <p align="center">
-   <img src ="pics/lab2/7_recostomizeip.jpg"  width="50%" height="80%"/>
+   <img src ="pics/lab2/7_recostomizeip.jpg"  width="70%" height="80%"/>
    </p>
    <p align = "center">
    <i>Recostomize IP</i>
@@ -77,7 +77,7 @@ This will create the lab2 directory and save the project and associated director
 14.	Click OK to save and close the customization window.
 
    <p align="center">
-   <img src ="pics/lab2/8_recostomip2.jpg"  width="50%" height="80%"/>
+   <img src ="pics/lab2/8_recostomip2.jpg"  width="70%" height="80%"/>
    </p>
    <p align = "center">
    <i>Recostomize IP</i>
