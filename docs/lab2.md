@@ -28,7 +28,7 @@ This will create the lab2 directory and save the project and associated director
 7.	Notice the additional *M_AXI_GPO* interface, and *M_AXI_GPO_ACLK*, *FCLK_CLK0*, and *FCLK_RESET0_N* ports are now included on the Zynq block. You can click the regenerate button to redraw the diagram to get something like this:
 
 <p align="center">
-<img src ="pics/lab2/1_BlockAXI.jpg " width="40%" height="80%"/>
+<img src ="pics/lab2/5_zynqblok.jpg" width="40%" height="80%"/>
 </p>
 <p align = "center">
 <i>Zynq system with AXI and clock interfaces</i>
@@ -36,7 +36,21 @@ This will create the lab2 directory and save the project and associated director
 
 8.	Next add an IP by **right clicking on the Diagram window> Add IP** and search for AXI GPIO in the catalog.
 
+<p align="center">
+<img src ="pics/lab2/5.1_addip.jpg" width="40%" height="80%"/>
+</p>
+<p align = "center">
+<i>Zynq system with AXI and clock interfaces</i>
+</p>
+
 9.	Double-click the _AXI GPIO_ to add the core to the design. The core will be added to the design and the block diagram will be updated.
+
+<p align="center">
+<img src ="pics/lab2/5_zynqblok.jpg " width="40%" height="80%"/>
+</p>
+<p align = "center">
+<i>Zynq system with AXI and clock interfaces</i>
+</p>
 
 10.	Click on the AXI GPIO block to select it, and in the properties tab, change the name to **switches**.
 
