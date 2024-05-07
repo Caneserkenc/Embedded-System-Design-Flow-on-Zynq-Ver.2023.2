@@ -217,7 +217,7 @@ Connection automation could be run on all unconnected ports simultaneously. For 
     </p>
 1. Select the **Port** from the dropdown menu. Keep the Advanced Settings as-is. Click **OK**.
     <p align="center">
-    <img src ="./pics/lab7/17_connectserialport.jpg" width="30%" height="80%"/>
+    <img src ="./pics/lab7/17_connectserialport.jpg" width="30%" height="70%"/>
     </p>
     <p align = "center">
     <i>Connect to Serial Port</i>
@@ -228,7 +228,7 @@ Connection automation could be run on all unconnected ports simultaneously. For 
 1. Follow the menu in the terminal emulator window and test transfers between various memories.
 
     <p align="center">
-    <img src ="./pics/lab7/18_ddrtoddr.jpg" width="30%" height="80%"/>
+    <img src ="./pics/lab7/18_ddrtoddr.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Hardware Testing</i>
