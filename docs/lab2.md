@@ -55,7 +55,7 @@ This will create the lab2 directory and save the project and associated director
 10.	Click on the AXI GPIO block to select it, and in the properties tab, change the name to **switches**.
 
    <p align="center">
-   <img src ="pics/lab2/6_switcesandzynq.jpg"  width="50%" height="80%"/>
+   <img src ="pics/lab2/6_switcesandzynq.jpg"  width="40%" height="80%"/>
    </p>
    <p align = "center">
    <i>Change AXI GPIO default name</i>
