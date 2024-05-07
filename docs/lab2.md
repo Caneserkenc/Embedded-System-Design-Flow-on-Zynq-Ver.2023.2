@@ -37,7 +37,7 @@ This will create the lab2 directory and save the project and associated director
 8.	Next add an IP by **right clicking on the Diagram window> Add IP** and search for AXI GPIO in the catalog.
 
 <p align="center">
-<img src ="pics/lab2/5.1_addip.jpg" width="40%" height="80%"/>
+<img src ="pics/lab2/5.1_addip.jpg" width="30%" height="70%"/>
 </p>
 <p align = "center">
 <i>Add IP</i>
@@ -46,7 +46,7 @@ This will create the lab2 directory and save the project and associated director
 9.	Double-click the _AXI GPIO_ to add the core to the design. The core will be added to the design and the block diagram will be updated.
 
 <p align="center">
-<img src ="pics/lab2/5.2_changename.jpg" width="40%" height="80%"/>
+<img src ="pics/lab2/5.2_changename.jpg" width="60%" height="80%"/>
 </p>
 <p align = "center">
 <i>Rename to Swithces</i>
@@ -55,7 +55,7 @@ This will create the lab2 directory and save the project and associated director
 10.	Click on the AXI GPIO block to select it, and in the properties tab, change the name to **switches**.
 
    <p align="center">
-   <img src ="pics/lab2/2_AXIblockadd.jpg "  width="50%" height="80%"/>
+   <img src ="pics/lab2/6_switcesandzynq.jpg"  width="50%" height="80%"/>
    </p>
    <p align = "center">
    <i>Change AXI GPIO default name</i>
