@@ -63,12 +63,26 @@ This will create the lab2 directory and save the project and associated director
    </p>
 
 11.	Double click on the _AXI GPIO block_ to open the customization window.
+
 12.	Click the **Board** tag, From the **Board Interface** drop down, select **sws 2bits** for **GPIO** IP Interface. Leave GPIO as default setting.
 13.	Next, click the IP configuration tab, and notice the width has already been set to match the switches on the *PYNQ-Z2* (2)  
-
+   <p align="center">
+   <img src ="pics/lab2/7_recostomizeip.jpg"  width="40%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Recostomize IP</i>
+   </p>
     Notice that the peripheral can be configured for two channels, but, since we want to use only one channel without interrupt, leave the **Enable Dual Channel** and **Enable Interrupt** unchecked.  
     > Channels here just refer to wired connections between peripherals and other components. Dual Channel would enable you to signals of 128 bits in lenght where has using one channel only allow for signals 64 bits in lenght. This option is to increase the bandwidth of the connection this periperhal could send. 
 14.	Click OK to save and close the customization window.
+
+   <p align="center">
+   <img src ="pics/lab2/8_recostomip2.jpg"  width="40%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Recostomize IP</i>
+   </p>
+
 15.	Notice that **Designer assistance** is available. Click on Run Connection Automation, and select **/switches/S_AXI**
 16.	Click OK when prompted to automatically connect the master and slave interfaces. Notice that two additional blocks, Processor System Reset, and AXI Interconnect have automatically been added to the design. (The blocks can be dragged to be rearranged, or the design can be redrawn).
 
