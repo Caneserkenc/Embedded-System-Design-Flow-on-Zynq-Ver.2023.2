@@ -210,7 +210,7 @@ Connection automation could be run on all unconnected ports simultaneously. For 
 1. Click **Window > Show View**, search and open **Vitis Serial Terminal**.
 1. Click the **Add** button to connect to a port.
     <p align="center">
-    <img src ="./pics/lab7/16_vitisseriterminal.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab7/16_vitisseriterminal.jpg" width="50%" height="60%"/>
     </p>
     <p align = "center">
     <i>Add a Serial Port</i>
@@ -226,6 +226,13 @@ Connection automation could be run on all unconnected ports simultaneously. For 
 ### Run the lab7 application from the DDR3 memory.
 1. Right-click on **lab7** from the Explorer View and select **Run as > Launch Hardware (Single Application Debug)**.
 1. Follow the menu in the terminal emulator window and test transfers between various memories.
+
+    <p align="center">
+    <img src ="./pics/lab7/18_ddrtoddr.jpg" width="30%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Hardware Testing</i>
+    </p>
 1. Select option 4 in the menu to complete the execution.
 1. Close Vitis IDE and Vivado
 1. Turn OFF the power on the board.
