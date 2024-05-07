@@ -201,7 +201,7 @@ The width of the interface will be automatically determined by the upstream bloc
     </p>
 3. Select the port from the dropdown menu. Keep the Advanced Settings as-is. Click OK.
    <p align="center">
-    <img src ="pics/lab1/3_connectseriterminal.jpg" width="35%" height="80%"/>
+    <img src ="c:\Users\Caneser\Documents\GitHub\Embedded-System-Design-Flow-on-Zynq-Ver.2023.2\pics\lab2\3_connectseriterminal.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Connect to serial port </i>
