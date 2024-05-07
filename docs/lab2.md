@@ -169,7 +169,7 @@ The width of the interface will be automatically determined by the upstream bloc
 10.	 In the shortcut Bar, select **I/O Planning** from the Layout dropdown menu
 
    <p align="center">
-   <img src ="pics/lab2/8_iop.jpg"  width="30%" height="80%"/>
+   <img src ="pics/lab2/14_ioplaning.jpg"  width="30%" height="80%"/>
    </p>
    <p align = "center">
    <i>Switch to the IO planning view</i>
