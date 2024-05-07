@@ -74,7 +74,7 @@ Connection automation could be run on all unconnected ports simultaneously. For 
     </p>
 1. Verify the CDMA connection through the AXI SmartConnect to the HP0 port
     <p align="center">
-    <img src ="./pics/lab7/2_VerifyConnection.png" width="80%" height="80%"/>
+    <img src ="./pics/lab7/19_Connecting AXI Central DMA controller to S_AXI_HP0.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Connecting AXI Central DMA controller to S_AXI_HP0</i>
@@ -210,14 +210,14 @@ Connection automation could be run on all unconnected ports simultaneously. For 
 1. Click **Window > Show View**, search and open **Vitis Serial Terminal**.
 1. Click the **Add** button to connect to a port.
     <p align="center">
-    <img src ="./pics/lab6/13_AddPort.png" width="60%" height="80%"/>
+    <img src ="./pics/lab7/16_vitisseriterminal.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add a Serial Port</i>
     </p>
 1. Select the **Port** from the dropdown menu. Keep the Advanced Settings as-is. Click **OK**.
     <p align="center">
-    <img src ="./pics/lab6/14_SelPort.png" width="30%" height="80%"/>
+    <img src ="./pics/lab7/17_connectserialport.jpg" width="30%" height="80%"/>
     </p>
     <p align = "center">
     <i>Connect to Serial Port</i>
