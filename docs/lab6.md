@@ -145,7 +145,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Connect the **CLK** port of the _vio\_0_ to FCLK\_CKL0 net.
 1. The block diagram should look similar to shown below.
     <p align="center">
-    <img src ="./pics/lab6/6_AddILAVIO.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/9_blockdesign.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>VIO added and connections made</i>
@@ -154,6 +154,12 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 ### Mark Debug the S\_AXI connection between the AXI Interconnect and math\_0 instance. Validate the design.
 1. Select the **S\_AXI** connection between the AXI Interconnect and the _math\_ip\_0_ instance **.**
 1. Right-click and select **Debug** to monitor the AXI4Lite transactions.
+    <p align="center">
+    <img src ="./pics/lab6/10_saxidebug.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Debug</i>
+    </p>
 
     Notice that a system\_ila IP instance got added and the M03\_AXI &lt;-&gt; S\_AXI connection is connected to its SLOT\_0\_AXI interface.
 
@@ -162,7 +168,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
     This saves resources being used by the design.
     <p align="center">
-    <img src ="./pics/lab6/7_SelChannel.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/11_debug.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Selecting channels for debugging</i>
@@ -173,7 +179,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
     The design should now look similar to the diagram below
     <p align="center">
-    <img src ="./pics/lab6/8_CompletedDiagram.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/12_blockdiagram2.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Completed Design</i>
@@ -181,7 +187,13 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
 ## Add Design Constraints and Generate Bitstream        
 1. Right click in the _Sources_ panel, and select **Add Sources.**
-1. Select **Add or Create Constraints** and click **Next**.
+    <p align="center">
+    <img src ="./pics/lab6/13_addsources.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Add Sources</i>
+    </p>
+2. Select **Add or Create Constraints** and click **Next**.
 1. Click the _Plus_ button then **Add Files**, browse to **{sources}\lab6** and select **lab6\_pynz2.xdc**.
 1. Click **OK** and then click **Finish.**
 1. Click on the **Generate Bitstream** to run the implementation and bit generation processes.
@@ -208,7 +220,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
     A snippet of the part of the source code is shown in the following figure. It shows that two operands are written to the custom core, the result is read, and printed out.  The write transaction will be used as a trigger condition in the Vivado Logic Analyzer.
     <p align="center">
-    <img src ="./pics/lab6/9_SrcCode.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/14_kod.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Source Code snippet</i>
@@ -218,15 +230,21 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Right click on **Single Application Debug** and select **New Configuration** to create a new configuration.
 1. In the **Target Setup** tab, check the **Enable Cross-Triggering** option, and click the Browse button.
     <p align="center">
-    <img src ="./pics/lab6/10_TargetSetup.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/19_debugconfiguration.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Enable cross triggering in the software environment</i>
     </p>
 1. When the _Cross Trigger Breakpoints_ dialog box opens, click **Create**
+    <p align="center">
+    <img src ="./pics/lab6/16_crosstrigerbreakpoint.jpg" width="60%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Create Cross Triger Breakpoint</i>
+    </p>
 1. Select the options as shown below and click **OK** to set up the cross-trigger condition for _Processor to Fabric_.
     <p align="center">
-    <img src ="./pics/lab6/11_CrossTrigger.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/16_crosstrigerbreakpoint.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Enabling CPU0 for request from PL</i>
@@ -235,7 +253,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. In the _Cross Trigger Breakpoints_ dialog box click **Create** again.
 1. Select the options as shown below and click **OK** to set up the cross trigger condition for _Fabric to Processor_.
     <p align="center">
-    <img src ="./pics/lab6/12_CrossTrigger.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/17_crossbreakpoint2.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Enabling CPU0 for request to PL</i>
