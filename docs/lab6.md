@@ -40,7 +40,7 @@ After completing this lab, you will be able to:
     </p>
 1. Click **Run Connection Automation**, and select **leds** (which will include GPIO and S\_AXI). Click on **GPIO** and **S_AXI** to check the default connections for these interfaces.
     <p align="center">
-    <img src ="./pics/lab6/3_runconnectotomation.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab6/3_runconnectotomation.jpg" width="30%" height="40%"/>
     </p>
     <p align = "center">
     <i>Run Connect Automation</i>
@@ -78,7 +78,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Double-click the _leds_ instance to open its configuration form.
 1. Click **Clear Board Parameters** and click **OK** to close the configuration form.
     <p align="center">
-    <img src ="./pics/lab6/5_clearboardparameters.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab6/5_clearboardparameters.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Clear Boards Parameters</i>
@@ -104,7 +104,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Expand **PS-PL Cross Trigger interface &gt; Input Cross Trigger**, and select **CPU0 DBG REQ** for _Cross Trigger Input 0._
 1. Similarly, expand Output Cross Trigger, and select **CPU0 DBG ACK** for _Cross Trigger Output 0_ and click **OK.**
     <p align="center">
-    <img src ="./pics/lab6/7_crosstriger.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab6/7_crosstriger.jpg" width="70%" height="70%"/>
     </p>
     <p align = "center">
     <i>Enabling cross triggering in the Zynq processing system</i>
@@ -117,7 +117,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Select **Native** as the _Monitor type_.
 1. Enable **Trigger Out Port**, and **Trigger In port.**
     <p align="center">
-    <img src ="./pics/lab6/8_ila.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab6/8_ila.jpg" width="70%" height="70%"/>
     </p>
     <p align = "center">
     <i>Re-costomize ILA</i>
@@ -188,7 +188,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 ## Add Design Constraints and Generate Bitstream        
 1. Right click in the _Sources_ panel, and select **Add Sources.**
     <p align="center">
-    <img src ="./pics/lab6/13_addsources.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab6/13_addsources.jpg" width="50%" height="50%"/>
     </p>
     <p align = "center">
     <i>Add Sources</i>
@@ -220,7 +220,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
     A snippet of the part of the source code is shown in the following figure. It shows that two operands are written to the custom core, the result is read, and printed out.  The write transaction will be used as a trigger condition in the Vivado Logic Analyzer.
     <p align="center">
-    <img src ="./pics/lab6/14_kod.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab6/14_kod.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Source Code snippet</i>
@@ -268,7 +268,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Click **Window > Show View**, search and open **Vitis Serial Terminal**.
 1. Click the Add button to connect to a port.
     <p align="center">
-    <img src ="./pics/lab6/20_vitisseri terminal.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab6/20_vitisseri terminal.jpg" width="50%" height="0%"/>
     </p>
     <p align = "center">
     <i>Add a Serial Port</i>
