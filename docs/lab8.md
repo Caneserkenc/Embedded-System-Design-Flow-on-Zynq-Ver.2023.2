@@ -95,7 +95,13 @@ After completing this lab, you will be able to:
 ### Create a first stage bootloader (FSBL).
 1. Select **File** &gt; **New** &gt; **Application Project.**
 1. In the _Platform_ window, click on the tag **Select a platform from repository** and select **lab8_platform**. Click **Next**.
-1. In the _Application Project Details_ window, enter **zynq_fsbl** as the _Application project name_. Click **Next**.
+    <p align="center">
+    <img src ="./pics/lab8/6_addplatformproject.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Select lab8_platform</i>
+    </p>
+3. In the _Application Project Details_ window, enter **zynq_fsbl** as the _Application project name_. Click **Next**.
 1. Click **Next** again.
 1. In the _Templates_ window, select **Zynq FSBL** and click **Finish**.
 1. Build the FSBL project by Right-clicking on **zynq_fsbl_system** form the _Explorer_ view and select **Build Project** or clicking on the hammer button.
