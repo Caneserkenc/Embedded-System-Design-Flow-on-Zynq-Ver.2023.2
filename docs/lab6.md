@@ -268,14 +268,14 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Click **Window > Show View**, search and open **Vitis Serial Terminal**.
 1. Click the Add button to connect to a port.
     <p align="center">
-    <img src ="./pics/lab6/13_AddPort.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/20_vitisseri terminal.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add a Serial Port</i>
     </p>
 1. Select the **Port** from the dropdown menu. Keep the Advanced Settings as-is. Click **OK**.
     <p align="center">
-    <img src ="./pics/lab6/14_SelPort.png" width="35%" height="80%"/>
+    <img src ="./pics/lab6/21_connectseriterminal.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i>Connect to Serial Port</i>
