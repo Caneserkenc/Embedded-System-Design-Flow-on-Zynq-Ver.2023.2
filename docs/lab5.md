@@ -11,7 +11,7 @@ After completing this lab, you will be able to:
 
 1.	Open the lab4 project from the previous lab, and Save it as **lab5** to the **{labs}** directory. Make sure that the **Create Project Subdirectory** and **Include run results** option is checked.
     <p align="center">
-    <img src ="pics/lab5/1_saveas.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab5/1_saveas.jpg" width="45%" height="80%"/>
     </p>
     <p align = "center">
     <i> Save As </i>
@@ -30,7 +30,7 @@ After completing this lab, you will be able to:
 1.	In the Explorer, right click on **lab4_system** and select **Close System Project**
 1.	Select **File > New > Application Project**.
     <p align="center">
-    <img src ="pics/lab5/2_newappproject.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab5/2_newappproject.jpg" width="65%" height="80%"/>
     </p>
     <p align = "center">
     <i> Open Lab4_platform </i>
