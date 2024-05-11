@@ -21,7 +21,7 @@ After completing this lab, you will be able to:
 1. Click on the _plus_ button of the IP Repositories panel, browse to **{sources}\lab6\math_ip** and click **Select.**
     The directory will be scanned and one IP will be detected and reported.   
     <p align="center">
-    <img src ="./pics/lab6/1_setting.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab6/1_settings.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Specify IP Repository</i>
