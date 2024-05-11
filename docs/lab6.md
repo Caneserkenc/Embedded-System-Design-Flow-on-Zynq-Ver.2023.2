@@ -64,7 +64,7 @@ After completing this lab, you will be able to:
 
     The _Math IP_ consists of a hierarchical design with the lower-level module performing the addition. The higher-level module includes the two slave registers.
     <p align="center">
-    <img src ="./pics/lab6/18_MathIP.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab6/18_mathIP.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Custom Core's Main Functional Block</i>
