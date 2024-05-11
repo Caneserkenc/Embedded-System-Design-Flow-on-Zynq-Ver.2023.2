@@ -49,7 +49,7 @@ After completing this lab, you will be able to:
 
     At this stage the design should look like as shown below. 
     <p align="center">
-    <img src ="./pics/lab6/2_AddLeds.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/4-diagram.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Block Design After add LED</i>
@@ -64,7 +64,7 @@ After completing this lab, you will be able to:
 
     The _Math IP_ consists of a hierarchical design with the lower-level module performing the addition. The higher-level module includes the two slave registers.
     <p align="center">
-    <img src ="./pics/lab6/3_MathIP.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/18_MathIP.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Custom Core's Main Functional Block</i>
@@ -77,13 +77,19 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 ### Disable LEDs interface.
 1. Double-click the _leds_ instance to open its configuration form.
 1. Click **Clear Board Parameters** and click **OK** to close the configuration form.
+    <p align="center">
+    <img src ="./pics/lab6/5_clearboardparameters.jpg" width="60%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Clear Boards Parameters</i>
+    </p>
 1. Select _leds_ port and delete it.
 1. Expand the _gpio_ interface of the **leds** instance to see the associate ports.
 
 ### Make the gpio\_io\_o port of the leds instance external and rename it as _leds_.
 1. Move the mouse close to the end of the _gpio\_io\_o_ port, left-click to select (do not select the main GPIO port), and then right click and select **Make External**.
     <p align="center">
-    <img src ="./pics/lab6/4_GpioExternal.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/6_makeexternal.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Make the gpio_io_o port External</i>
@@ -98,7 +104,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Expand **PS-PL Cross Trigger interface &gt; Input Cross Trigger**, and select **CPU0 DBG REQ** for _Cross Trigger Input 0._
 1. Similarly, expand Output Cross Trigger, and select **CPU0 DBG ACK** for _Cross Trigger Output 0_ and click **OK.**
     <p align="center">
-    <img src ="./pics/lab6/5_CrossTrigger.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/7_crosstriger.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Enabling cross triggering in the Zynq processing system</i>
@@ -110,6 +116,12 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Double-click on the _ila\_0_ instance.
 1. Select **Native** as the _Monitor type_.
 1. Enable **Trigger Out Port**, and **Trigger In port.**
+    <p align="center">
+    <img src ="./pics/lab6/8_ila.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Re-costomize ILA</i>
+    </p>
 1. Select the **Probe Ports** tab, and set the **Probe Width** of _PROBE0_ to **4** and click **OK**.
 1. Using the drawing tool, connect the **probe0** port of the _ila\_0_ instance to the **gpio\_io\_o** port of the _leds_ instance.
 1. Connect the **clk** port of the _ila\_0_ instance to the **FCLK\_CLK0** port of the Zynq subsystem.
