@@ -112,7 +112,7 @@ After completing this lab, you will be able to:
 ### Create the BOOT.bin file
 1. Using the System Explorer, create a directory under the **{labs}\lab8** directory and name it **image**.
     <p align="center">
-    <img src ="./pics/lab8/7_create image folder.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/7_create image folder.jpg" width="50%" height="60%"/>
     </p>
     <p align = "center">
     <i>Creating İmage File</i>
@@ -129,7 +129,7 @@ After completing this lab, you will be able to:
 1. Click on the **Add** button of the _Boot image partitions,_ click the Browse button in the _File path_ field, browse to **{Vitis_Workspace}\zynq_fsbl\Debug** directory (this is where the FSBL was created), select **zynq\_fsbl.elf** and click **Open**.
 1. Make sure the partition type is bootloader, then click **OK.**
     <p align="center">
-    <img src ="./pics/lab8/10_add zynqfbls.elf.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/9_bootimage2.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Adding FSBL partition</i>
@@ -141,7 +141,7 @@ After completing this lab, you will be able to:
     >The BOOT.bin and the output.bif files will be created in the **{labs}\lab5\image** directory.  We will use the BOOT.bin for the SD card boot up.
 
     <p align="center">
-    <img src ="./pics/lab8/3_CreateImage.png" width="80%" height="80%"/>
+    <img src ="./pics/lab8/10_add zynqfbls.elf.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Creating BOOT.bin image file</i>
