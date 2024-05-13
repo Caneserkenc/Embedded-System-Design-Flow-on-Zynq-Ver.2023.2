@@ -154,25 +154,45 @@ After completing this lab, you will be able to:
 1. Connect your PC to the UART port with the provided micro-USB cable, and start Vitis Serial Terminal or other Terminal emulator programs setting it to the current COM port and 115200 baudrate.
 1. You should see the **Hello World** message in the terminal window.  If you don&#39;t see it, then press the **RST/SRST** button on the board.
 1. Once satisfied, power OFF the board and remove the SD card.
+    <p align="center">
+    <img src ="./pics/lab8/11_helloworld.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Terminal Window</i>
+    </p>
 
 ### Test the functionality by booting from QSPI flash.
 1. Set the board to JTAG mode and power ON the board.
-1. Select **Xilinx > Program Flash**.
-1. Click the **Browse** button of the Image File field, browse to the **{labs}\lab8\image** directory, select **BOOT.bin** file, and click **Open**.
+1. Select **Vitis > Program Flash**.
+    <p align="center">
+    <img src ="./pics/lab8/12_programflash.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Program Flash Memory form</i>
+    </p>
+3. Click the **Browse** button of the Image File field, browse to the **{labs}\lab8\image** directory, select **BOOT.bin** file, and click **Open**.
 1. Click the **Browse** button of the Init File field, browse to the **{Vitis_Workspace}\zynq_fsbl\Debug** directory, select **zynq_fsbl.elf** file, and click **Open**.
 1. In the _Offset_ field enter **0** as the offset and click the **Program** button.
 
     <p align="center">
-    <img src ="./pics/lab8/4_ProgramFlash.png" width="80%" height="80%"/>
+    <img src ="./pics/lab8/13_programflashmemory.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Program Flash Memory form</i>
     </p>
 
-1. Power OFF the board, change the board to QSPI mode, and Power On the board
+6. Power OFF the board, change the board to QSPI mode, and Power On the board
 1. Disconnect and reconnect the Terminal window.
 1. Press the **RST\SRST** to see the "Hello World" message in the terminal window.
 1. Once satisfied, power OFF the board.
+
+    <p align="center">
+    <img src ="./pics/lab8/14_helloworld2.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Terminal Window</i>
+    </p>
+
 ## Prepare for the Multi-Applications Boot Using SD Card        
 >The lab1 and lab2 executable files are required in the .bin format before copying to the SD card. The area in memory allocated for each application need to be modified so that they do not overlap each other, or with the main application. The prepared bin files (**lab1elf.bin** and **lab2elf.bin**) provided in the directory: **{sources}\lab8\SD_image** can be used for copying to the SD card. Follow steps in **Appendix A-1** and **Appendix A-2** if you want to generate by yourself.
 
