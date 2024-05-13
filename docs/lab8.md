@@ -129,7 +129,7 @@ After completing this lab, you will be able to:
 1. Click on the **Add** button of the _Boot image partitions,_ click the Browse button in the _File path_ field, browse to **{Vitis_Workspace}\zynq_fsbl\Debug** directory (this is where the FSBL was created), select **zynq\_fsbl.elf** and click **Open**.
 1. Make sure the partition type is bootloader, then click **OK.**
     <p align="center">
-    <img src ="./pics/lab8/9_bootimage2.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/9_bootimage2.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Adding FSBL partition</i>
@@ -141,7 +141,7 @@ After completing this lab, you will be able to:
     >The BOOT.bin and the output.bif files will be created in the **{labs}\lab5\image** directory.  We will use the BOOT.bin for the SD card boot up.
 
     <p align="center">
-    <img src ="./pics/lab8/10_add zynqfbls.elf.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/10_add zynqfbls.elf.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Creating BOOT.bin image file</i>
@@ -155,7 +155,7 @@ After completing this lab, you will be able to:
 1. You should see the **Hello World** message in the terminal window.  If you don&#39;t see it, then press the **RST/SRST** button on the board.
 1. Once satisfied, power OFF the board and remove the SD card.
     <p align="center">
-    <img src ="./pics/lab8/11_helloworld.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/11_helloworld.jpg" width="60%" height="70%"/>
     </p>
     <p align = "center">
     <i>Terminal Window</i>
@@ -165,10 +165,10 @@ After completing this lab, you will be able to:
 1. Set the board to JTAG mode and power ON the board.
 1. Select **Vitis > Program Flash**.
     <p align="center">
-    <img src ="./pics/lab8/12_programflash.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/12_programflash.jpg" width="50%" height="60%"/>
     </p>
     <p align = "center">
-    <i>Program Flash Memory form</i>
+    <i>Program Flash</i>
     </p>
 3. Click the **Browse** button of the Image File field, browse to the **{labs}\lab8\image** directory, select **BOOT.bin** file, and click **Open**.
 1. Click the **Browse** button of the Init File field, browse to the **{Vitis_Workspace}\zynq_fsbl\Debug** directory, select **zynq_fsbl.elf** file, and click **Open**.
@@ -187,7 +187,7 @@ After completing this lab, you will be able to:
 1. Once satisfied, power OFF the board.
 
     <p align="center">
-    <img src ="./pics/lab8/14_helloworld2.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab8/14_helloworld2.jpg" width="60%" height="70%"/>
     </p>
     <p align = "center">
     <i>Terminal Window</i>
