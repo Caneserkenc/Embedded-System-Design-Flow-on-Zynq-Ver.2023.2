@@ -327,7 +327,7 @@ This lab led you through creating the boot images which can boot standalone appl
 1. In the lscript editor view, change the Base Address of the _ps7\_ddr\_0\_AXI\_BASEADDR_ from **0x00100000** to **0x00200000** , and the Size from **0x1FF00000** to **0x1FE00000**.
 
     <p align="center">
-    <img src ="./pics/lab8/6_ChangeAddr.png" width="60%" height="80%"/>
+    <img src ="./pics/lab8/15_linkerscript.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Changing the Base address and the size</i>
@@ -361,7 +361,7 @@ This lab led you through creating the boot images which can boot standalone appl
 1. In the lscript editor view, change the Base Address of the _ps7\_ddr\_0\_AXI\_BASEADDR_ from **0x00100000** to **0x00600000** , and the Size from **0x1FF00000** to **0x1FA00000**.
 
     <p align="center">
-    <img src ="./pics/lab8/6_ChangeAddr.png" width="60%" height="80%"/>
+    <img src ="./pics/lab8/15_linkerscript.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Changing the Base address and the size</i>
