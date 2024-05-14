@@ -51,7 +51,7 @@ After completing this lab, you will be able to:
 2. Right-click on the **lab5** project in the Explorer and select **Run as > 1 Launch Hardware (Single Application Debug)**
 3. Depending on the switch settings you will see LEDs implementing a binary counter with corresponding delay.
     <p align="center">
-    <img src ="pics/lab5/7_termop.jpg" width="35%" height="80%"/>
+    <img src ="pics/lab5/3_terminal window.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Terminal window output </i>
@@ -69,18 +69,30 @@ After completing this lab, you will be able to:
      The **first** breakpoint is where count is initialized to 0.  The **second** breakpoint is to catch if the timer initialization fails. The **third** breakpoint is when the program is about to read the dip switch settings.  The **fourth** breakpoint is when the program is about to terminate due to pressing of center push button. The **fifth** breakpoint is when the timer has expired and about to write to LED.
 
     <p align="center">
-    <img src ="pics/lab5/8_bp.jpg" width="80%"  height="80%"/>
+    <img src ="pics/lab5/4_breakpoints1.jpg" width="80%"  height="80%"/>
     </p>
     <p align="center">
-    <img src ="pics/lab5/9_bp.jpg" width="80%"  height="80%"/>
+    <img src ="pics/lab5/5_breakpoints2.jpg" width="80%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Setting breakpoints</i>
     </p>
 
 4.	Click on the **Resume** button or press **F8** to continue executing the program up until the first breakpoint is reached.
+    <p align="center">
+    <img src ="pics/lab5/6_resumef8.jpg" width="50%"  height="60%"/>
+    </p>
+    <p align = "center">
+    <i>Resume Button</i>
+    </p>
 
     In the _Variables_ tab you will notice that the count variable may have value other than 0.
+     <p align="center">
+    <img src ="pics/lab5/7_countadress.jpg" width="50%"  height="60%"/>
+    </p>
+    <p align = "center">
+    <i>Count Variables</i>
+    </p> 
 5.	Click on the **Step Over** button or press **F6** to execute one statement. As you do step over, you will notice that the count variable value changed to 0.
 6.	Click on the **Resume** button again and you will see that several lines of the code are executed and the execution is suspended at the third breakpoint. The second breakpoint is skipped.  This is due to successful timer initialization.
 7.	Click on the **Step Over (F6)** button to execute one statement. As you do step over, you will notice that the **dip_check_prev** variable value changed to a value depending on the switch settings on your board.
@@ -88,7 +100,7 @@ After completing this lab, you will be able to:
 9.	Click the plus sign to add a **Memory Monitor**
 
     <p align="center">
-    <img src ="pics/lab5/cmemlocn.jpg" width="50%"  height="80%"/>
+    <img src ="pics/lab5/8_memory.jpg" width="50%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Monitor memory location</i>
@@ -97,7 +109,7 @@ After completing this lab, you will be able to:
 10.	Enter the address for the private counter load register (_0xF8F00600_), and click OK.
 
     <p align="center">
-    <img src ="pics/lab5/dmonitormem.jpg" width="30%"  height="80%"/>
+    <img src ="pics/lab5/9_memorymonitor.jpg" width="30%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Monitoring a Memory Address</i>
@@ -126,7 +138,7 @@ After completing this lab, you will be able to:
 1. Right click on **lab5_system > lab5** from the Explorer and click **Generate Linker Script**. Note that all four major sections, code, data, stack and heap are to be assigned to BRAM controller.
 1. In the Basic Tab change the Code and Data sections to **ps7_ddr_0**, leaving the Heap and Stack in **axi_bram_ctrl_0_Mem0** and click **Generate**, and click **Yes** to overwrite.
     <p align="center">
-    <img src ="pics/lab4/6_bram.jpg" width="80%"  height="80%"/>
+    <img src ="pics/lab5/10_linkerscript.jpg" width="80%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Generate linker script</i>
