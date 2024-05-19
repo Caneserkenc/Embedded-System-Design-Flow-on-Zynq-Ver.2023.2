@@ -234,12 +234,6 @@ After completing this lab, you will be able to:
 1. Rename the files **lab1.bit.bin** and **lab2.bit.bin** to **lab1.bin** and **lab2.bin**
 1. The size of the file needs to match the size specified in the **lab8\_sd.c** file. The size can be determined by checking the file&#39;s properties. If the sizes do not match, then make the necessary change to the source code and save it (The values are defined as **LAB1\_BITFILE\_LEN** and **LAB2\_BITFILE\_LEN**).
 
-    <p align="center">
-    <img src ="./pics/lab8/5_FileSize.png" width="80%" height="80%"/>
-    </p>
-    <p align = "center">
-    <i>Checking the size of the generate bin file</i>
-    </p>
 
     >Note that the lab1.bin and lab2.bin files should be the same size.
 
