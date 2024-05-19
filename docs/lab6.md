@@ -374,14 +374,14 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. In Vivado, select the **hw\_vio\_1** core in the _Dashboard Options_ panel.
 1. Click on the **Add** button and select all vio signals to stimulate and monitoring.  Change the **vio\_0\_probe\_out0** value to **1** so the math\_ip core input can be controlled via the VIO core.
     <p align="center">
-    <img src ="./pics/lab6/25_VioProbe.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/31_hwvio.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>VIO probes</i>
     </p>
 1. Change **vio\_0\_probe\_out1** value to **55** (in Hex), and similarly, **vio\_0\_probe\_out2** value to **44** (in Hex). Notice that for a brief moment a blue-colored up-arrow will appear in the Activity column and the result value changes to **099** (in Hex).
     <p align="center">
-    <img src ="./pics/lab6/26_ChangeInput.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/32_hwvio2.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Input stimuli through the VIO core's probes</i>
@@ -393,7 +393,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Select the **hw\_ila\_1** in the _Dashboard Options_ panel.
 1. Add the LEDs to the **Trigger Setup**, and set the trigger condition of the _hw\_ila\_1_ to trigger at LED output value equal to **0x5** for the PYNQ-Z2.
     <p align="center">
-    <img src ="./pics/lab6/27_TriggerSetup.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/34_hwilasetup.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Setting up Trigger for hw_ila_1</i>
