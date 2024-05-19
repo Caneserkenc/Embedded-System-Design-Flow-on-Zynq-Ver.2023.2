@@ -339,7 +339,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Similarly, set the trigger position in the _**Settings** – hw\_ila\_1_ window to **512**.
 1. Select **hw\_ila\_2** in the _Hardware_ window and click on the **Run Trigger** button and observe that the _hw\_ila\_2_ core is armed and showing the status as **Waiting For Trigger**.
     <p align="center">
-    <img src ="./pics/lab6/20_RunTrigger.png" width="70%" height="80%"/>
+    <img src ="./pics/lab6/27_waitingfortrigger.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Hardware analyzer running and in capture mode</i>
@@ -348,7 +348,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Switch to Vitis IDE.
 1. Near line 27, double click on the left border on the line where xil\_printf statement is defined in the lab6.c to set a breakpoint.
     <p align="center">
-    <img src ="./pics/lab6/21_SetBreakpoint.png" width="70%" height="80%"/>
+    <img src ="./pics/lab6/38_settingabreakpoint.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Setting a breakpoint</i>
