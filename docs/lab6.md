@@ -339,7 +339,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Similarly, set the trigger position in the _**Settings** – hw\_ila\_1_ window to **512**.
 1. Select **hw\_ila\_2** in the _Hardware_ window and click on the **Run Trigger** button and observe that the _hw\_ila\_2_ core is armed and showing the status as **Waiting For Trigger**.
     <p align="center">
-    <img src ="./pics/lab6/27_waitingfortrigger.jpg" width="70%" height="80%"/>
+    <img src ="./pics/lab6/27_waitingfortrigger.jpg" width="60%" height="70%"/>
     </p>
     <p align = "center">
     <i>Hardware analyzer running and in capture mode</i>
@@ -357,9 +357,9 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Back to Vivado, notice that the **hw\_ila\_2** status changed from **Waiting for Trigger** to **Idle**, and the waveform window shows the triggered output (select the _hw\_ila\_data\_2.wcfg_ tab if necessary).
 1. Move the cursor to closer to the trigger point and then click on the **Zoom In** button to zoom at the cursor. Click on the **Zoom In** button couple of times to see the activity near the trigger point. Similarly, you can see other activities by scrolling to right as needed.
     <p align="center">
-    <img src ="./pics/lab6/28_wavefrom.jpg" width="60%" height="80%"/>
-    <img src ="./pics/lab6/29_wavefrom2.jpg" width="60%" height="80%"/>
-    <img src ="./pics/lab6/30_wavefrom3.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab6/28_wavefrom.jpg" width="70%" height="80%"/>
+    <img src ="./pics/lab6/29_wavefrom2.jpg" width="70%" height="80%"/>
+    <img src ="./pics/lab6/30_wavefrom3.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Zoomed waveform view of the three AXI transactions</i>
