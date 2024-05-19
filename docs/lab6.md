@@ -314,7 +314,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Click on the **hw\_ila\_2** tab to select it. In the **Debug Probes** window, under _hw\_ila\_2_, drag and drop the **WDATA** signal to the **Trigger setup** window.
 1. Set the value to **XXXX\_XX12** (HEX) (the value written to the math\_0 instance at line 24 of the lab6.c).
     <p align="center">
-    <img src ="./pics/lab6/24_triggersetup.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab6/24_triggersetup.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Trigger Setup</i>
