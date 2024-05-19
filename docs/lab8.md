@@ -238,7 +238,7 @@ After completing this lab, you will be able to:
     >Note that the lab1.bin and lab2.bin files should be the same size.
 
 ### Create the BOOT.bin file
-1. In the SDK, select **Xilinx > Create Boot Image > Zynq and Zynq Ultrascale**.
+1. In the SDK, select **Vitis > Create Boot Image > Zynq and Zynq Ultrascale**.
 1. Select **Create new BIF file**.
 1. For the _Output BIF file path_, click on the Browse button and browse to **{labs}\lab8\SD_image** directory and click **Save**.
 1. Click on the **Add** button of the _boot image partitions_ field and browse to **{Vitis_Workspace}/lab8_platform/zynq_fsbl** , select **fsbl.elf** , click **Open** , and click **OK**.
@@ -280,7 +280,7 @@ After completing this lab, you will be able to:
 
 ### Create the lab8.mcs file
 1. Using the System Explorer, create the **QSPI\_image** directory under the **lab8** directory.
-1. Select **Xilinx > Create Boot Image > Zynq and Zynq Ultrascale**.
+1. Select **Vİtis > Create Boot Image > Zynq and Zynq Ultrascale**.
 1. Select **Create new BIF file** option, click the _Browse_ button of the _Output BIF file path_ field and browse to **{labs}\lab8\QSPI_image** directory, with default name _output.bif_, and click **Save**.
 1. Click on the **Add** button of the _boot image partitions_ field and add the fsbl file, **fsbl.elf** , from **{Vitis_Workspace}\lab8_platform\zynq_fsbl** and click **OK**
 1. Click on the **Add** button of the _boot image partitions_ field and add the bitstream file, **system_wrapper.bit** , from **{Vitis_Workspace}\lab8_platform\hw** and click **OK**
@@ -293,7 +293,7 @@ After completing this lab, you will be able to:
 
 ### Program the QSPI using the Flash Writer utility.
 1. Set the board in JTAG mode. Power ON the board.
-1. Select **Xilinx > Program Flash**.
+1. Select **Vitis > Program Flash**.
 1. Click the **Browse** button of the _Image File_ field, and browse to the **{labs}\lab8\QSPI_image** directory, select **lab8.mcs** file, and click **Open**.
     >A solution mcs file is provided in the **{sources}\lab8\QSPI_image** directory, use it if you have skipped the previous step of generate QSPI image.
  
@@ -329,7 +329,7 @@ This lab led you through creating the boot images which can boot standalone appl
 1. Press **Ctrl-S** to save the change.
 1. Build the system project.
 
-1. Select **Xilinx > Vitis Shell** to open the shell session.
+1. Select **Vitis > Vitis Shell** to open the shell session.
 1. In the shell window, change the directory to **{Vitis_Workspace}\lab1\Debug** using the **cd** command.
 1. Convert the _lab1.elf_ file to _lab1elf.bin_ file by typing the following command.
     ```bash
@@ -363,7 +363,7 @@ This lab led you through creating the boot images which can boot standalone appl
 1. Press **Ctrl-S** to save the change.
 1. Build the system project.
 
-1. Select **Xilinx > Vitis Shell** to open the shell session.
+1. Select **Vitis > Vitis Shell** to open the shell session.
 1. In the shell window, change the directory to **{Vitis_Workspace}\lab2\Debug** using the **cd** command.
 1. Convert the _lab2.elf_ file to _lab2elf.bin_ file by typing the following command.
     ```bash
@@ -400,7 +400,7 @@ This lab led you through creating the boot images which can boot standalone appl
     <i>Setting user-defined symbol</i>
     </p>
 1. Rebuild the system project.
-1. Select **Xilinx > Create Boot Image > Zynq and Zynq Ultrascale**.
+1. Select **Vİtis > Create Boot Image > Zynq and Zynq Ultrascale**.
 1. Select **Create new BIF file** option, click the _Browse_ button of the _Output BIF file path_ field and browse to **{labs}\lab1** directory, set filename as **lab1**, and click **Save**.
 1. Add below three files in the _Boot image partitions_ field
     1. {Vitis_Workspace}\lab8_platform\zynq_fsbl\fsbl.elf
@@ -416,7 +416,7 @@ This lab led you through creating the boot images which can boot standalone appl
 1. Right-click on the **lab2** entry, select the _C/C++ Build Settings_ option.
 1. Select _Symbols_ in the left pane under the _ARM gcc compiler_ group, click the _+_ button on the right, enter **MULTIBOOT** in open form, click **OK** and click **OK** again.
 1. Rebuild the system project.
-1. Select **Xilinx > Create Boot Image > Zynq and Zynq Ultrascale**.
+1. Select **Vitis > Create Boot Image > Zynq and Zynq Ultrascale**.
 1. Select **Create new BIF file** option, click the _Browse_ button of the _Output BIF file path_ field and browse to **{labs}\lab2** directory, set filename as **lab2**, and click **Save**.
 1. Add below three files in the _Boot image partitions_ field
     1. {Vitis_Workspace}\lab8_platform\zynq_fsbl\fsbl.elf
