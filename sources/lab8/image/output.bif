@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\Caneser\Desktop\labs-new\lab8\zynq_fsbl\Debug\zynq_fsbl.elf
+	C:\Users\Caneser\Desktop\labs-new\lab8\lab8_platform\hw\KNC_wrapper.bit
+	C:\Users\Caneser\Desktop\labs-new\lab8\lab8_helloworld\Debug\lab8_helloworld.elf
+}
