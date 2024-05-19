@@ -219,7 +219,7 @@ After completing this lab, you will be able to:
 
     >The _bootgen_ command of Vitis Shell will be used to convert the bit files into the required binary format. The _bootgen_ requires a .bif file which has been provided in the sources/lab8 directory. The .bif file specifies the target .bit files.
 
-1. Open a command prompt by selecting **Xilinx &gt; Vitis Shell.**
+1. Open a command prompt by selecting **Vitis &gt; Vitis Shell.**
 1. In the command prompt window, change the directory to the bitstreams directory using _cd_ command.
     ```bash
     cd {labs}/lab8/SD_image
