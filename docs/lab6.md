@@ -391,7 +391,13 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
 ### Setup the ILA Trigger Conditions for hw_ila_1
 1. Select the **hw\_ila\_1** in the _Dashboard Options_ panel.
-1. Add the LEDs to the **Trigger Setup**, and set the trigger condition of the _hw\_ila\_1_ to trigger at LED output value equal to **0x5** for the PYNQ-Z2.
+    <p align="center">
+    <img src ="./pics/lab6/33_addleds.jpg" width="80%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Add the LEDs</i>
+    </p>
+2. Add the LEDs to the **Trigger Setup**, and set the trigger condition of the _hw\_ila\_1_ to trigger at LED output value equal to **0x5** for the PYNQ-Z2.
     <p align="center">
     <img src ="./pics/lab6/34_hwilasetup.jpg" width="80%" height="80%"/>
     </p>
