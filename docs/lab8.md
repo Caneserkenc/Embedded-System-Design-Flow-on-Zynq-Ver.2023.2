@@ -392,9 +392,15 @@ This lab led you through creating the boot images which can boot standalone appl
 
 1. Start Vitis IDE and browse to the workspace pointing to **lab1** and click **OK.**
 1. Right-click on the **lab1** entry, select the _C/C++ Build Settings_ option.
-1. Select _Symbols_ in the left pane under the _ARM gcc compiler_ group, click the _+_ button on the right, enter **MULTIBOOT** in open form, click **OK** and click **OK** again.
     <p align="center">
-    <img src ="./pics/lab8/7_BuildSetting.png" width="60%" height="80%"/>
+    <img src ="./pics/lab8/17_addmultiboot.jpg" width="60%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Add MULTIBOOT</i>
+    </p>
+3. Select _Symbols_ in the left pane under the _ARM gcc compiler_ group, click the _+_ button on the right, enter **MULTIBOOT** in open form, click **OK** and click **OK** again.
+    <p align="center">
+    <img src ="./pics/lab8/18_MULTİBOOT2.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Setting user-defined symbol</i>
