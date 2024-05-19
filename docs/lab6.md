@@ -275,7 +275,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
     </p>
 1. Select the **Port** from the dropdown menu. Keep the Advanced Settings as-is. Click **OK**.
     <p align="center">
-    <img src ="./pics/lab6/21_connectseriterminal.jpg" width="35%" height="80%"/>
+    <img src ="./pics/lab6/20_connectserialport.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i>Connect to Serial Port</i>
@@ -289,7 +289,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
     The hardware session will open showing the **Debug Probes** tab in the **Console** view.
     <p align="center">
-    <img src ="./pics/lab6/15_DebugProbe.png" width="40%" height="80%"/>
+    <img src ="./pics/lab6/21_debugprobes.jpg" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i>Debug probes</i>
@@ -297,7 +297,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 
     The hardware session status window also opens showing that the FPGA is programmed (we did it in Vitis IDE), there are three cores out of which the two ila cores are in the idle state.
     <p align="center">
-    <img src ="./pics/lab6/16_HardwareSession.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/22_hardware.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Hardware session status</i>
