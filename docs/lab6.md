@@ -323,9 +323,15 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Similarly, add **WREADY, WSTRB,** and **WVALID** to the **Trigger Setup** window.
 1. Change the radix to **[B]\(binary\)** for **WSTRB**, and change the value from **XXXX** to **XXX1**
 1. Change the value of **WVALID** and **WREADY** to **1**.
-1. Set the trigger position of the _hw\_ila\_2_ to **512** in the window _**Settings** – hw\_ila\_2_
     <p align="center">
-    <img src ="./pics/lab6/19_SettingsILA2.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/25_triggersetup2.jpg" width="60%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i>Eit Trigger Setup</i>
+    </p>
+6. Set the trigger position of the _hw\_ila\_2_ to **512** in the window _**Settings** – hw\_ila\_2_
+    <p align="center">
+    <img src ="./pics/lab6/26_settingshw2.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Setting up the ILA</i>
@@ -412,7 +418,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. In Vivado, select **hw\_ila\_1**
 1. In the **ILA properties** window, expand the **CONTROL**, set the _TRIGGER_MODE_ to **BASIC\_OR\_TRIGG\_IN** , and the _TRIG\_OUT\_MODE_ to **TRIGGER\_OR\_TRIG\_IN**
     <p align="center">
-    <img src ="./pics/lab6/29_ILAProperties.png" width="60%" height="80%"/>
+    <img src ="./pics/lab6/36_ilacoreproperties.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>ILA Core Properties</i>
