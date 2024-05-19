@@ -374,7 +374,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. In Vivado, select the **hw\_vio\_1** core in the _Dashboard Options_ panel.
 1. Click on the **Add** button and select all vio signals to stimulate and monitoring.  Change the **vio\_0\_probe\_out0** value to **1** so the math\_ip core input can be controlled via the VIO core.
     <p align="center">
-    <img src ="./pics/lab6/31_hwvio.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab6/31_hwvio.jpg" width="70%" height="70%"/>
     </p>
     <p align = "center">
     <i>VIO probes</i>
@@ -408,7 +408,7 @@ We want to connect the ILA core to the LED interface. Vivado prohibits connectin
 1. Press the push-buttons and see the corresponding LED turning ON and OFF.
 1. When the condition is met, the waveform will be displayed.
     <p align="center">
-    <img src ="./pics/lab6/28_Waveform.png" width="80%" height="80%"/>
+    <img src ="./pics/lab6/35_wavefromila.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>ILA waveform window after Trigger</i>
