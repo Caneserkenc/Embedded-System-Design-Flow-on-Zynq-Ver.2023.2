@@ -338,7 +338,7 @@ This lab led you through creating the boot images which can boot standalone appl
 
 1. Type `ls –l` in the shell window and note the size of the file.  In this case, it is **32776** , which is equivalent to **0x8008** bytes.
     <p align="center">
-    <img src ="./pics/lab8/16_cmd.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab8/16_cmd.jpg" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>Size of the File</i>
