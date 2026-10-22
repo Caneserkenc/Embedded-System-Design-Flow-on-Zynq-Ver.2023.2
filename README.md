@@ -1,19 +1,32 @@
 # Embedded-System-Design-Flow-on-Zynq-Ver.2023.2
 
+> **About this repository**
+> 
+> This is an updated version of the Xilinx University Program (XUP) lab series
+> [Embedded System Design Flow on Zynq](https://github.com/Xilinx/xup_embedded_system_design_flow),
+> adapted to **Vivado and Vitis 2023.2** by **Caneser Kenç**.
+>
+> **What was updated**
+> - Lab instructions and source files revised for the Vivado/Vitis 2023.2 tool flow
+> - Bugs found while working through the labs fixed
+> - Verified on the PYNQ-Z2 board
+>
+> Original content belongs to AMD/Xilinx; this repository is shared for educational purposes.
+
 ## Labs outline
 
 The purpose of This workshop is to walk you through a complete hardware and software processor system design. It provides participants the necessary skills to develop complex embedded systems and enable them to improve their designs by using the tools available in Vivado and Vitis IDE. It also helps developers understand and utilize advanced components of embedded systems design for architecting a complex system in the Zynq™ System on a Chip (SoC)
 
 ## Source Files Setup
 
-To use the source files for each of the labs in this workshop, you have to download or clone this repository from GitHub. 
+To use the source files for each of the labs in this workshop, you have to download or clone this repository from GitHub.
 
-On the main GitHub webpage for a repository, you can select **Clone or download** and select **Download Zip** to download an archive of the repository. You can then extract this to a folder on your local machine. 
+On the main GitHub webpage for a repository, you can select **Clone or download** and select **Download Zip** to download an archive of the repository. You can then extract this to a folder on your local machine.
 
 If you prefer to use **git** you can clone this repository:
 
 ```
-  git clone https://github.com/Xilinx/xup_embedded_system_design_flow
+  git clone https://github.com/Caneserkenc/Embedded-System-Design-Flow-on-Zynq-Ver.2023.2
 ```
 In the instructions for the labs;
 
